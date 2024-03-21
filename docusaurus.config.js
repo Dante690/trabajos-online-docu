@@ -55,8 +55,7 @@ const config = {
           routeBasePath: "/",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/dante690/trabajos-online-docu/tree/main",
         },
         blog: false, //{
         // showReadingTime: true,
@@ -76,12 +75,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
+      image: "img/logo-trabajos.jpg",
       navbar: {
-        title: "My Site",
+        title: "Trabajosonline Documentación",
         logo: {
-          alt: "My Site Logo",
-          src: "img/logo.svg",
+          alt: "Logo Trabajosonline",
+          src: "img/logo-trabajos.jpg",
         },
         items: [
           {
@@ -89,10 +88,36 @@ const config = {
             position: "right",
           },
           {
+            label: "Inicio",
+            to: "/",
+            // Suponiendo que tienes un archivo SVG para el icono "Home"
+            // en la carpeta estática en la ruta 'img/home-icon.svg'
+            icon: "img/house-solid.svg",
+          },
+          {
+            label: "Api Endpoints",
+            to: "/",
+            // Suponiendo que tienes un archivo SVG para el icono "Home"
+            // en la carpeta estática en la ruta 'img/home-icon.svg'
+            icon: "img/house-solid.svg",
+          },
+          {
+            label: "Anuncios",
+            to: "/",
+            // Suponiendo que tienes un archivo SVG para el icono "Home"
+            // en la carpeta estática en la ruta 'img/home-icon.svg'
+            icon: "img/house-solid.svg",
+          },
+          {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
             label: "Tutorial",
+          },
+          {
+            href: "https://trabajosonline.org",
+            label: "Buscar Trabajos",
+            position: "right",
           },
           //{ to: "/blog", label: "Blog", position: "left" },
           // {
@@ -115,7 +140,7 @@ const config = {
             items: [
               {
                 label: "Tutorial",
-                to: "/docs/intro",
+                to: "/",
               },
             ],
           },
@@ -139,10 +164,10 @@ const config = {
           {
             title: "More",
             items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
+              // {
+              //   label: "Blog",
+              //   to: "/blog",
+              // },
               {
                 label: "GitHub",
                 href: "https://github.com/facebook/docusaurus",
