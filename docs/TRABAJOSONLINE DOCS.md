@@ -1,17 +1,24 @@
 ---
-sidebar_position: 4
+sidebar_position: 1
 slug: /
 ---
 
-## ¡Bienvenido y enhorabuena! :tada: :confetti_ball:
+## ¡Bienvenido a nuestra plataforma de empleo! :confetti_ball:
 
-**Estamos muy contentos de que haya elegido hacer de Trabajosonline su hogar para trabajar y estamos encantados de tenerlo.** <img src="/img/logo-trabajos.jpg" alt="Logo de Trabajosonline" title="Bienvenido a Trabajosonline" width="20" height="20" />
+**Aqui podra encontrar informacion acerca de como funciona nuestra plataforma,publicar ofertas de empleo, resolver preguntas y dudas, consejos para mejorar su perfil y experiencia de búsqueda de empleo o reclutamiento.** <img src="/img/logo-trabajos.jpg" alt="Logo de Trabajosonline" title="Bienvenido a Trabajosonline" width="20" height="20" />
+
+## ¿Qué es Trabajosonline?
 
 :briefcase: **Trabajosonline** es un portal de empleo donde podrá encontrar ofertas de trabajo para asalariados y freelancers, en el sector tecnológico IT, Fintech, Web3, Marketing. :computer:
 
+- **Tecnología e Ingeniería**: Fullstack, Frontend, Backend, Crypto, Desarrollador, Ingeniero :computer:
+- **Marketing y Finanzas**: Marketing, Finanzas :bar_chart:
+- **Roles Ejecutivos y Senior**: Executive, Senior :briefcase:
+- **Y Otras**: Para otros tipos de empleo que no se ajustan a las anteriores
+
 Esta documentación le ayudará en todo el proceso de búsqueda de trabajo para Usuarios, Freelancers y búsqueda de candidatos para empresas:
 
-- :bust_in_silhouette: Como registrarse como usuario, freelancer o empresa
+- :bust_in_silhouette: Como registrarse [como usuario, freelancer](./Guia%20de%20inicio/Como%20empezar.md##registro-como-usuariofreelancer-) o empresa
 - :pencil2: Rellenar nuestro perfil (usuarios, empresas)
 - :handshake: Cómo aplicar a los diferentes puestos de trabajo (Usuarios, Freelancer)
 - :loudspeaker: Cómo publicar una oferta de empleo de Empresa

@@ -96,24 +96,24 @@ const config = {
           },
           {
             label: "Api Endpoints",
-            to: "/",
+            to: "/docs/Api",
             // Suponiendo que tienes un archivo SVG para el icono "Home"
             // en la carpeta estática en la ruta 'img/home-icon.svg'
             icon: "img/house-solid.svg",
           },
           {
             label: "Anuncios",
-            to: "/",
+            to: "/docs/Anuncios",
             // Suponiendo que tienes un archivo SVG para el icono "Home"
             // en la carpeta estática en la ruta 'img/home-icon.svg'
             icon: "img/house-solid.svg",
           },
-          {
-            type: "docSidebar",
-            sidebarId: "tutorialSidebar",
-            position: "left",
-            label: "Tutorial",
-          },
+          // {
+          //   type: "docSidebar",
+          //   sidebarId: "tutorialSidebar",
+          //   position: "left",
+          //   label: "Tutorial",
+          // },
           {
             href: "https://trabajosonline.org",
             label: "Buscar Trabajos",

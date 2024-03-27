@@ -1,0 +1,39 @@
+---
+sidebar_position: 2
+---
+
+## Introducción a los Depósitos de Garantía para Freelancers 💼
+
+Al contemplar la publicación de ofertas de empleo para freelancers o trabajadores independientes, es fundamental comprender la dinámica y el funcionamiento de este tipo de colaboraciones. Un aspecto crítico a considerar es el método de pago de los servicios prestados por los freelancers. Para esto, se emplea el **depósito de garantía** 🛡, asegurando así que los trabajos realizados sean debidamente remunerados.
+
+### ¿Cómo Funciona el Depósito de Garantía?
+
+Una vez que el cliente y el freelancer han acordado los servicios a realizar, la fecha límite de entrega y el precio acordado, se procede al depósito de los fondos mediante un **contrato de escrow** 📝. Estos fondos quedan custodiados por un tercero en caso de utilizar moneda fiat, o mediante un **smart contract** en caso de criptomonedas, hasta la finalización del trabajo.
+
+Una vez que el freelancer ha completado las tareas asignadas, solicita la liberación de los fondos. Estos son entonces liberados por el cliente, completando así el proceso de pago.
+
+## Publicar una Oferta de Trabajo Freelancer
+
+Para publicar una oferta de empleo freelancer, diríjase a nuestra [**página de publicación de empleo**](https://app.trabajosonline.org/post-job). Este espacio le permite completar y personalizar los distintos aspectos de la oferta, asegurando que la información sea clara y detallada para atraer a los candidatos más adecuados.
+
+<img src="/img/publicafreelance1.png" alt="Registro con Email" title="Registro con Email en Trabajosonline"  />
+
+### Aspectos Clave a Incluir en Su Anuncio
+
+Al redactar una oferta de empleo para freelancers, es importante incluir los siguientes aspectos:
+
+#### Modalidades de Pago para Trabajos Freelance
+
+Dentro del ámbito freelance, existen varias modalidades de pago para adaptarse a diferentes tipos de proyectos y necesidades:
+
+- **Precio Fijo**: Esta modalidad implica el pago de una cantidad fija previamente acordada por la realización de una tarea o proyecto específico 🏷.
+
+<img src="/img/publicafreelance2.png" alt="Registro con Email" title="Registro con Email en Trabajosonline"  />
+
+- **Precio por Horas**: Esta opción permite fijar una tarifa de pago por hora trabajada. Es fundamental especificar la tarifa deseada, por ejemplo, 10€/hora. Esta modalidad es adecuada para trabajos que requieren flexibilidad en términos de horas dedicadas :clock4:.
+
+<img src="/img/publicafreelance3.png" alt="Registro con Email" title="Registro con Email en Trabajosonline"  />
+
+### Pago de anuncios de la ofertas de empleo para Freelancer 📈
+
+Los anuncios de publicación de las ofertas de Freelancer son gratuitos, trabajos online cobra unas comisiones Fees al cliente (5%) y al Freelancer (10%) por utilizar la plataforma ver en el apartado de Trabajos Fees
