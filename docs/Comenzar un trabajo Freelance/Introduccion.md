@@ -28,7 +28,7 @@ Una vez que hayamos completado el trabajo, es importante entregar los archivos f
 
 Al finalizar el proyecto o alcanzar un hito específico, marcamos la tarea como completada. A continuación, el cliente dispone de un período de protección de aproximadamente **14 días para liberar los fondos** o solicitar una revisión del trabajo entregado :hourglass_flowing_sand:.
 
-<img src="/img/contrato2.png" alt="Registro con Email" title="Registro con Email en Trabajosonline"  />
+<img src="/img/contrato2.png" alt="Marcar tarea como completada" title="Marcar tarea como completado"  />
 
 Si durante este lapso el cliente no presenta ninguna objeción y los fondos no han sido liberados, podemos proceder a retirarlos utilizando el botón **"Withdraw Funds"**. Este proceso transfiere automáticamente los fondos a nuestra billetera digital, completando así la transacción :money_with_wings:.
 

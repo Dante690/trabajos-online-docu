@@ -6,11 +6,11 @@ sidebar_position: 2
 
 Mediante nuestra plataforma [app.trabajosonline.org](https://app.trabajosonline.org), tiene la posibilidad de actualizar su perfil de manera sencilla. Una vez haya iniciado sesión, diríjase al botón ubicado en la esquina superior derecha, el cual está marcado con el icono de su usuario 🧑. Al hacer clic en "Perfil", accederá directamente a su perfil personal.
 
-<img src="/img/perfil1.png" alt="Registro con Email" title="Registro con Email en Trabajosonline"  />
+<img src="/img/perfil1.png" alt="Revisar nuestro Perfil en el menu" title="Revisar nuestro Perfil"  />
 
 Dentro de esta sección, podrá modificar y actualizar todos los parámetros relevantes de su perfil, asegurando que su información esté siempre al día y refleje de manera precisa su experiencia y habilidades profesionales 💼.
 
-<img src="/img/perfil2.png" alt="Registro con Email" title="Registro con Email en Trabajosonline"  />
+<img src="/img/perfil2.png" alt="Actualizar nuestro perfil" title="Actualizar nuestro perfil"  />
 
 ## Consejos para rellenar tu Perfil-CV
 

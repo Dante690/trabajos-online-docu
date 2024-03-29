@@ -6,7 +6,7 @@ sidebar_position: 3
 
 Una vez que hayamos publicado nuestra oferta de empleo en la plataforma, los freelancers interesados comenzarán a enviar sus propuestas para colaborar en nuestro proyecto :mailbox_with_mail:. Para revisar estas propuestas, es necesario acceder a la sección **"Mis Trabajos"** en nuestra cuenta.
 
-<img src="/img/contratar1.png" alt="Extension Wallet" title="Extension para registro con una Wallet en Trabajosonline"  />
+<img src="/img/contratar1.png" alt="Como revisar las propuestas enviadas en menu de inicio" title="Como revisar las propuestas enviadas"  />
 
 Dentro de **"Mis Trabajos"** :open_file_folder:, encontraremos un listado de todas las ofertas de empleo que hemos publicado. Podemos seleccionar la oferta específica que deseamos revisar, pulsando en el boton **Revisar Propuestas** seremos dirigidos a la sección **Propuestas"** :page_with_curl:, donde se muestran todas las propuestas enviadas por los freelancers para ese trabajo en particular.
 
@@ -22,7 +22,7 @@ Al revisar las propuestas recibidas por freelancers en nuestra plataforma, encon
 - **Tiempo de Realización del Trabajo**: Estimaciones de tiempo que el freelancer necesita para completar el proyecto :hourglass_flowing_sand:.
 - **Forma de Pago Aceptada**: Si el freelancer prefiere moneda fiat o cripto :money_with_wings::moneybag:. En el caso de que el Frelancer tenga registrada una Wallet, se le mostrará la opción de pago en criptomonedas.
 
-<img src="/img/contratar2.png" alt="Extension Wallet" title="Extension para registro con una Wallet en Trabajosonline"  />
+<img src="/img/contratar2.png" alt="Como diferencias las ofertas Fiat (€,$) a las ofertas Crypto" title="Diferencia entre Oferta Fiat (€,$) y Oferta Crypto"  />
 
 Esto nos permitirá seleccionar la propuesta que mejor se ajuste a las necesidades y requisitos de nuestro proyecto, asegurando así una colaboración exitosa :handshake:.
 
@@ -37,13 +37,13 @@ Algunos puntos importantes a discutir en esta etapa inicial pueden incluir:
 
 Para iniciar esta conversación, simplemente haga clic en el botón **"Chat"** asociado con la propuesta del freelancer. Este diálogo inicial puede ser determinante para garantizar el éxito del proyecto y la satisfacción de ambas partes.
 
-<img src="/img/contratar3.png" alt="Extension Wallet" title="Extension para registro con una Wallet en Trabajosonline"  />
+<img src="/img/contratar3.png" alt="Como abrir la extensión del chat para comunicar con el Freelancer" title="Acceder la extensión del chat para comunicar con el Freelancer"  />
 
 ### Navegación en la Ventana de Chat
 
 En la interfaz del chat, encontrarás a la izquierda una lista de los diferentes chats abiertos y, a la derecha, el contenido de las conversaciones seleccionadas. Además, puedes aprovechar el uso del comando "/" para acceder rápidamente a funciones específicas, como por ejemplo, solicitar una oferta.
 
-<img src="/img/chat1.png" alt="Extension Wallet" title="Extension para registro con una Wallet en Trabajosonline"  />
+<img src="/img/chat1.png" alt="Ejemplo de como funciona la extensión del chat" title="Como funciona la extensión del chat"  />
 
 ## Seleccionar una oferta de un Frelancer 📬
 
@@ -53,7 +53,7 @@ En este caso, es importante diferenciar entre las dos opciones de pago disponibl
 - **Crypto**: Para usuarios que estén registrados con una Wallet y deseen el pago en criptomonedas.
 - **Bank Account**: Para usuarios que estén registrados con un Correo Electrónico y deseen el pago en moneda fiat.
 
-<img src="/img/contratar4.png" alt="Extension Wallet" title="Extension para registro con una Wallet en Trabajosonline"  />
+<img src="/img/contratar4.png" alt="Cómo contratar un Freelancer" title="Cómo contratar un Freelancer"  />
 
 ## Enviar una Oferta de Contrato al Freelancer
 
@@ -66,14 +66,14 @@ Además, es necesario seleccionar la red en la cual deseas desplegar el Smart Co
 - **Redes Disponibles**: Ethereum, Binance, Polygon, Testnet (Sólo en modo pruebas)
 - **Tokens**: Usdt, Usdc, BNB, Dai, Custom Token (Sólo en modo pruebas)
 
-<img src="/img/enviarcontrato1.png" alt="Extension Wallet" title="Extension para registro con una Wallet en Trabajosonline"  />
+<img src="/img/enviarcontrato1.png" alt="Plantilla para el envio de una oferta al Freelancer" title="Envio de una oferta al Freelancer"  />
 
 Finalmente, respecto a las opciones para el contrato, puedes elegir entre:
 
 - Precio Fijo (con o sin milestones)
 - Precio por Horas
 
-<img src="/img/enviarcontrato2.png" alt="Extension Wallet" title="Extension para registro con una Wallet en Trabajosonline"  />
+<img src="/img/enviarcontrato2.png" alt="Detalles para el envio de una oferta de Precio Fijo" title="Detalles para el envio de una oferta de Precio Fijo"  />
 
 A continuación, se detalla cada una para facilitar tu elección:
 

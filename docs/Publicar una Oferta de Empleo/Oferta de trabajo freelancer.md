@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-## Introducción a los Depósitos de Garantía para Freelancers 💼
+## Como funcionan las ofertas para Freelancers - Depósito de Garantía 💼
 
 Al contemplar la publicación de ofertas de empleo para freelancers o trabajadores independientes, es fundamental comprender la dinámica y el funcionamiento de este tipo de colaboraciones. Un aspecto crítico a considerar es el método de pago de los servicios prestados por los freelancers. Para esto, se emplea el **depósito de garantía** 🛡, asegurando así que los trabajos realizados sean debidamente remunerados.
 
@@ -16,7 +16,7 @@ Una vez que el freelancer ha completado las tareas asignadas, solicita la libera
 
 Para publicar una oferta de empleo freelancer, diríjase a nuestra [**página de publicación de empleo**](https://app.trabajosonline.org/post-job). Este espacio le permite completar y personalizar los distintos aspectos de la oferta, asegurando que la información sea clara y detallada para atraer a los candidatos más adecuados.
 
-<img src="/img/publicafreelance1.png" alt="Registro con Email" title="Registro con Email en Trabajosonline"  />
+<img src="/img/publicafreelance1.png" alt="Publicar una oferta de empleo Freelancer" title="Publicar una oferta de empleo Freelancer 1"  />
 
 ### Aspectos Clave a Incluir en Su Anuncio
 
@@ -28,11 +28,13 @@ Dentro del ámbito freelance, existen varias modalidades de pago para adaptarse 
 
 - **Precio Fijo**: Esta modalidad implica el pago de una cantidad fija previamente acordada por la realización de una tarea o proyecto específico 🏷.
 
-<img src="/img/publicafreelance2.png" alt="Registro con Email" title="Registro con Email en Trabajosonline"  />
+<img src="/img/publicafreelance2.png" alt="Especificar el tipo de trabajo asalariado o crypro" title="Publicar una oferta de empleo Freelancer Precio Fijo o Por Horas"  />
 
 - **Precio por Horas**: Esta opción permite fijar una tarifa de pago por hora trabajada. Es fundamental especificar la tarifa deseada, por ejemplo, 10€/hora. Esta modalidad es adecuada para trabajos que requieren flexibilidad en términos de horas dedicadas :clock4:.
 
-<img src="/img/publicafreelance3.png" alt="Registro con Email" title="Registro con Email en Trabajosonline"  />
+<img src="/img/publicafreelance3.png" alt="Como publicar una oferta por horas" title="Ejemplo de publicación de oferta por horas"  />
+
+**Es importante destacar** que una vez que se ha publicado la oferta de empleo, los freelancers interesados pueden enviar sus propuestas. El cliente puede entonces revisar las propuestas y seleccionar la forma de trabajo más adecuada para su proyecto.
 
 ### Pago de anuncios de la ofertas de empleo para Freelancer 📈
 

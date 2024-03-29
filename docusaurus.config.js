@@ -96,14 +96,14 @@ const config = {
           },
           {
             label: "Api Endpoints",
-            to: "/docs/Api",
+            to: "/category/Api",
             // Suponiendo que tienes un archivo SVG para el icono "Home"
             // en la carpeta estática en la ruta 'img/home-icon.svg'
             icon: "img/house-solid.svg",
           },
           {
             label: "Anuncios",
-            to: "/docs/Anuncios",
+            to: "/Anuncios",
             // Suponiendo que tienes un archivo SVG para el icono "Home"
             // en la carpeta estática en la ruta 'img/home-icon.svg'
             icon: "img/house-solid.svg",
@@ -139,7 +139,7 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Tutorial",
+                label: "Guía de Inicio",
                 to: "/",
               },
             ],
@@ -170,7 +170,7 @@ const config = {
               // },
               {
                 label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                href: "https://github.com/",
               },
             ],
           },

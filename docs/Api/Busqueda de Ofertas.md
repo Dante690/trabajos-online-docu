@@ -1,0 +1,29 @@
+---
+sidebar_position: 1
+---
+
+## API de Búsqueda de Trabajos Remotos
+
+Proporciona una lista de ofertas de trabajo remoto de acuerdo con varios criterios de búsqueda.
+
+## GET /public/remote-jobs
+
+Recupera una lista paginada de trabajos remotos basada en los parámetros de búsqueda proporcionados.
+
+### Parámetros de Consulta:
+
+- `page` (entero): El número de página de los resultados a obtener.
+- `pageSize` (entero): La cantidad de ofertas de trabajo por página.
+- `langCode` (cadena): El código de idioma para filtrar las ofertas de trabajo.
+- `user_id` (opcional, cadena): El identificador de usuario para personalizar la búsqueda.
+- `searchString` (opcional, cadena): Una palabra clave para buscar en las ofertas de trabajo.
+- `tagsFilter` (opcional, cadena): Etiquetas específicas para filtrar las ofertas de trabajo.
+- `checkboxFilters` (opcional, cadena): Filtros adicionales especificados como casillas de verificación.
+- `categoryFilter` (opcional, cadena): La categoría para filtrar las ofertas de trabajo.
+- `minSalary` (opcional, cadena): El salario mínimo para filtrar las ofertas de trabajo.
+
+### Ejemplo de Solicitud:
+
+```http
+GET https://trabajos-online-backend-prod.info1780.workers.dev/api/public/remote-jobs?page=0&pageSize=20&langCode=es&searchString=java
+```

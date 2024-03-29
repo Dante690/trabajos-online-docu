@@ -1,0 +1,50 @@
+---
+sidebar_position: 9
+---
+
+## Honorarios
+
+## 📢 Tarifas de Publicación para Empresas en TrabajosOnline.org
+
+En TrabajosOnline.org, ofrecemos diversas opciones para empresas que buscan los mejores talentos. Nuestras tarifas están diseñadas para adaptarse a todas las necesidades, desde startups hasta grandes corporaciones.
+
+## Publicación Express de Anuncios
+
+- **Precio Básico:** 145€
+
+🎉 **Ofertas Especiales:** Para la publicación del primer anuncio, aproveche nuestros cupones de descuento disponibles de 90€.
+
+## Subscripciones para Empresas
+
+Ofrecemos cuatro planes de subscripción diseñados para proporcionar la máxima visibilidad y eficacia en la búsqueda de candidatos:
+
+- **Plan Básico**
+- **Plan Premium**
+- **Plan Business**
+- **Plan Enterprise**
+
+Cada plan incluye características y beneficios diseñados para satisfacer las necesidades específicas de su empresa. Para más detalles sobre cada plan, visite nuestra página de tarifas o contáctenos directamente clientes@trabajosonline.org.
+
+## Freelancer Project Fees
+
+Para proyectos Freelancer, aplicamos una estructura de tarifas transparente y justa:
+
+- **Comisión para Freelancers:** 10%
+- **Comisión para Clientes:** 5%
+
+## Descuentos y Bonificaciones
+
+- **Descuentos por Cupones:** Disfrute de descuentos de hasta el 50% y 25%.
+- **Bonificación por uso del Token TRB:**
+
+Ofrecemos tasas de descuento atractivas a lo largo de varios años. A continuación, se detalla la estructura de descuento:
+
+| Tasa de Descuento | 1er año | 2do año | 3er año |
+| ----------------- | ------- | ------- | ------- |
+|                   | 0.5     | 0.5     | 0.25    |
+
+| 4to año | 5to año | 6to año | 7mo año... |
+| ------- | ------- | ------- | ---------- |
+| 0.25    | 0.125   | 0.125   | 0.0675     |
+
+Para más información sobre nuestras ofertas y promociones, contáctenos en clientes@trabajosonline.org.

@@ -12,11 +12,11 @@ Podemos buscar ofertas de empleo a través de [nuestra plataforma](https://traba
 En nuestra plataforma podemos filtrar los trabajos por:
 idioma. Al seleccionar un idioma diferente, como el español :es:, inglés :us:, o alemán :de:, los empleos disponibles en ese idioma se priorizan, mostrándose en las primeras posiciones de su búsqueda, garantizando así que encuentre las oportunidades más relevantes con facilidad.
 
-<img src="/img/buscaempleo1.png" alt="Registro con Email" title="Registro con Email en Trabajosonline"  />
+<img src="/img/buscaempleo1.png" alt="Ejemplo de Ofertas de empleo idioma Español" title="Ofertas de empleo idioma Español"  />
 
 Si queremos realizar una busqueda mas extensa podemos utilizar nuestra app [app](https://app.trabajosonline.org), a través de una serie de filtros detallados, es posible personalizar su búsqueda para incluir solo aquellas oportunidades que coincidan con sus criterios específicos 🕵️‍♂️. Entre las opciones de filtrado disponibles, se incluyen:
 
-<img src="/img/buscaempleo2.png" alt="Registro con Email" title="Registro con Email en Trabajosonline"  />
+<img src="/img/buscaempleo2.png" alt="Busqueda de ofertas de empleo mediante filtros" title="Filtros para la busqueda de ofertas de empleo"  />
 
 ### Opciones de Filtrado Disponibles
 
@@ -39,6 +39,6 @@ Además, para aquellos que tienen en mente una posición particular, nuestra bar
 
 Nuestra aplicación ofrece un acceso directo a una diversidad de ofertas de empleo, incluidas aquellas orientadas a profesionales independientes o freelancers :briefcase:. Estas oportunidades específicas están claramente marcadas con una etiqueta verde "Freelancer", facilitando su identificación entre la amplia gama de opciones disponibles.
 
-<img src="/img/buscaempleo3.png" alt="Registro con Email" title="Registro con Email en Trabajosonline"  />
+<img src="/img/buscaempleo3.png" alt="Como identificar ofertas de empleo para Freelancers" title="Oferta de empleo Freelancer"  />
 
 Para postularse a estos trabajos freelance, es requisito indispensable que los usuarios se encuentren previamente registrados en nuestra plataforma. El registro puede completarse utilizando una dirección de correo electrónico :email: o mediante una wallet digital, ofreciendo así flexibilidad y seguridad en el proceso de aplicación.

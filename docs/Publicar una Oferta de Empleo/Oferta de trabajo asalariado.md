@@ -4,9 +4,9 @@ sidebar_position: 1
 
 ## Ofertas de Empleo para Empresas :briefcase:
 
-Para publicar una oferta de empleo en nombre de una empresa, diríjase a nuestra [**página de publicación de empleo**](https://app.trabajosonline.org/post-job). Este espacio le permite completar y personalizar los distintos aspectos de la oferta, asegurando que la información sea clara y detallada para atraer a los candidatos más adecuados.
+Para publicar una oferta de empleo en nombre de una empresa, diríjase a nuestra [**página de publicación de empleo**](https://app.trabajosonline.org/post-job). Este espacio le permite completar y personalizar los distintos aspectos de la oferta, procure que la información sea clara y detallada para atraer a los candidatos más adecuados.
 
-### Aspectos Clave a Incluir en Su Anuncio
+### Aspectos clave a incluir en su Anuncio
 
 - **Título del Puesto**: Proporcione un título preciso y descriptivo que resuma la esencia del rol. :label:. Por ejemplo no escriba ofertas de trabajo como "Se busca programador" sino "Se busca programador PHP con experiencia en Laravel".
 
@@ -14,7 +14,7 @@ Para publicar una oferta de empleo en nombre de una empresa, diríjase a nuestra
 
 - **Tipo de Trabajo**: Especifique la modalidad del empleo, para trabajos asalariados elegimos en este caso el rol de empleado en la pestaña.
 
-<img src="/img/publicaempleo1.png" alt="Registro con Email" title="Registro con Email en Trabajosonline"  />
+<img src="/img/publicaempleo1.png" alt="Como rellenar una oferta de empleo" title="Completar la oferta de empleo 1"  />
 
 Una vez seleccionado el rol de empleo asalariado debemos indicar si el trabajo se realizara a tiempo completo, parcial,etc..:
 
@@ -43,7 +43,7 @@ En nuestra plataforma, clasificamos las ofertas de trabajo en una variedad de ca
 
 Tambien pueden incluir unas etiquetas o tags permiten especificar aún más las características deseadas en los candidatos. Por ejemplo, si busca un **Desarrollador Frontend** especializado en **React** con conocimiento de la **metodología Agile**, puede utilizar las etiquetas `React` y `Agile` para definir mas su anuncio :mag_right:.
 
-<img src="/img/publicaempleo2.png" alt="Registro con Email" title="Registro con Email en Trabajosonline"  />
+<img src="/img/publicaempleo2.png" alt="Registro con Email" title="Completar oferta de empleo 2"  />
 
 ### Consideraciones para Empresas Fuera de la EU
 
@@ -57,11 +57,11 @@ En **TrabajosOnline**, ofrecemos diversas opciones para la publicación y pago d
 
 Disponemos de una variedad de planes de empresa que se adaptan a las necesidades y presupuesto de cada organización. Aqui se incluyen opciones como la publicación de múltiples ofertas de empleo, acceso a la base de datos de candidatos, y promoción de la marca en nuestra plataforma. Las tarifas basicas para empresas son las siguientes:
 
-<img src="/img/tarifa1.png" alt="Registro con Email" title="Registro con Email en Trabajosonline"  />
+<img src="/img/tarifa1.png" alt="Subscripción anual Plan Básico" title="Subscripción anual Plan Básico"  />
 
 ---
 
-<img src="/img/tarifa2.png" alt="Registro con Email" title="Registro con Email en Trabajosonline"  />
+<img src="/img/tarifa2.png" alt="Subscripción anual Plan Premium" title="Subscripción anual Plan Premium"  />
 
 ---
 
@@ -71,4 +71,4 @@ Para más información las empresas interesadas pueden consultar nuestras tarifa
 
 Ofrecemos la posibilidad de publicar anuncios de forma express en nuestra plataforma, utilizando para ello la pasarela de pagos segura de **Stripe** :credit_card:, o bien mediante **DeFi** para aquellos que prefieren opciones de pago descentralizadas :lock:. Puede acceder directamente a nuestra página de anuncios para más información y para proceder con la publicación.
 
-<img src="/img/publicaempleo3.png" alt="Registro con Email" title="Registro con Email en Trabajosonline"  />
+<img src="/img/publicaempleo3.png" alt="Pago mediante plataforma de pagos" title="Pago mediante plataforma de pagos (secure)"  />

@@ -40,7 +40,7 @@ Por ello, es esencial que, si existe alguna discrepancia o insatisfacción con e
   A continuacion os mostramos un esquema de como funcionan las disputas en Trabajosonline, te ayudará a entender en caso de desacuerdo como podemos proceder...
 </div>
 
-<img src="/img/contrato1.png" alt="Registro con Email" title="Registro con Email en Trabajosonline"  />
+<img src="/img/contrato1.png" alt="Esquema general de disputas" title="Esquema de disputas"  />
 
 ### Si eres el freelancer
 
