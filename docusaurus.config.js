@@ -96,7 +96,7 @@ const config = {
           },
           {
             label: "Api Endpoints",
-            to: "/category/Api",
+            to: "/category/api",
             // Suponiendo que tienes un archivo SVG para el icono "Home"
             // en la carpeta estática en la ruta 'img/home-icon.svg'
             icon: "img/house-solid.svg",
