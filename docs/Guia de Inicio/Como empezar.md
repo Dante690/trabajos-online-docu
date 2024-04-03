@@ -41,7 +41,11 @@ Tras completar el formulario, recibirá un correo electrónico de verificación 
 
 <img src="/img/registro6.png" alt="Registro con Email Ver carpeta Spam" title="Registro con Email ver carpeta Spam"  />
 
-Una vez que el correo esté en su bandeja de entrada, proceda a activar su cuenta haciendo clic en el enlace proporcionado para "activar nuestro email" :link:.
+Aquí marcamos el correo como seguro :white_check_mark:.
+
+<img src="/img/spam.png" alt="Marcar correo como seguro" title="Registro con Email marcar correo como seguro"  />
+
+Una vez que el correo esté en su bandeja de entrada, proceda a activar su cuenta haciendo clic en el enlace proporcionado "Verifique su Email" para activar nuestra cuenta :link:.
 
 <img src="/img/registro7.png" alt="Registro con Email correo de activación de cuenta" title="Registro con Email Correo de Activación"  />
 
