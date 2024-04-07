@@ -1,0 +1,12 @@
+---
+sidebar_position: 2
+---
+
+# Smart Contract States
+
+**Smart Contracts** can have different states, depending on the current conditions and actions taken by the involved parties. Regarding Escrow Contracts, they can adopt one of the following states:
+
+- **Deployed**: Indicates that the contract has been deployed on the blockchain and is ready to be executed.
+- **Completed**: This state is reached when the contract has been successfully executed, and all pre-established conditions have been met.
+- **Terminated**: The contract has ended, either because the terms were fulfilled or for some other reason agreed upon by the parties.
+- **Disputed**: Occurs when one of the parties questions the contract, thus initiating a dispute resolution process.

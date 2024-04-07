@@ -1,18 +1,18 @@
 {
   "link.title.Docs": {
-    "message": "Dokumentation",
+    "message": "Docs",
     "description": "The title of the footer links column with title=Docs in the footer"
   },
   "link.title.Comunidad": {
-    "message": " Community",
+    "message": "Comunidad",
     "description": "The title of the footer links column with title=Comunidad in the footer"
   },
   "link.title.More": {
-    "message": "Mehr",
+    "message": "More",
     "description": "The title of the footer links column with title=More in the footer"
   },
   "link.item.label.Guía de Inicio": {
-    "message": "Einstiegsanleitung",
+    "message": "Guía de Inicio",
     "description": "The label of footer link with label=Guía de Inicio linking to /"
   },
   "link.item.label.Linkedin": {
@@ -27,16 +27,12 @@
     "message": "Twitter",
     "description": "The label of footer link with label=Twitter linking to https://twitter.com/Trabajoson54431"
   },
-  "link.item.label.Blog": {
-    "message": "Blog",
-    "description": "The label of footer link with label=Blog linking to /blog"
-  },
   "link.item.label.GitHub": {
     "message": "GitHub",
-    "description": "The label of footer link with label=GitHub linking to https://github.com/facebook/docusaurus"
+    "description": "The label of footer link with label=GitHub linking to https://github.com/"
   },
   "copyright": {
-    "message": "Copyright © 2024 Trabajosonline Dokumentation von Support..",
+    "message": "Copyright © 2024 Trabajosonline Documentación de Soporte.",
     "description": "The footer copyright"
   }
 }

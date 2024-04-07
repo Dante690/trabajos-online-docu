@@ -1,0 +1,97 @@
+---
+sidebar_position: 3
+---
+
+# Hire a Freelancer
+
+## Reviewing Freelancer Proposals :mag_right:
+
+Once we have posted our job offer on the platform, interested freelancers will start sending their proposals to collaborate on our project :mailbox_with_mail:. To review these proposals, it is necessary to access the **"My Jobs"** section in our account.
+
+<img src="/img/contratar1.png" alt="How to review the sent proposals from the home menu" title="How to review sent proposals"  />
+
+Within **"My Jobs"** :open_file_folder:, we will find a list of all the job offers we have posted. We can select the specific offer we wish to review; by pressing the **Review Proposals** button, we will be directed to the **Proposals** :page_with_curl: section, where all the proposals sent by freelancers for that particular job are displayed.
+
+## Details of Freelance Proposals :memo:
+
+At this point, we can carefully examine each proposal, evaluating the credentials, previous experiences, and expectations of each freelancer :eyeglasses:.  
+When reviewing the proposals received by freelancers on our platform, you will find detailed information that will help you make the best decision for your project. The data presented in each proposal includes:
+
+- **Freelancer's Name**: :bust_in_silhouette:.
+- **Ranking and Portfolio**: Evaluate the quality and previous experience of the freelancer through their ranking on the platform and examples of previous work :star:.
+- **Cover Letter**: This includes a brief presentation from the Freelancer about their interest in your project :page_facing_up:.
+- **Required Price**: Prior knowledge of the cost that the freelancer considers appropriate for the work :dollar:.
+- **Job Completion Time**: Time estimates that the freelancer needs to complete the project :hourglass_flowing_sand:.
+- **Accepted Form of Payment**: Whether the freelancer prefers fiat currency or crypto :money_with_wings::moneybag:. In case the Freelancer has registered a Wallet, the option of payment in cryptocurrencies will be shown.
+
+<img src="/img/contratar2.png" alt="How to differentiate Fiat (€,$) offers from Crypto offers" title="Difference between Fiat (€,$) and Crypto Offer"  />
+
+This will allow us to select the proposal that best suits the needs and requirements of our project, thus ensuring a successful collaboration :handshake:.
+
+## Preliminary Communication before Selecting the Freelancer :speech_balloon:
+
+Before proceeding with the final selection of a freelancer for your project, we strongly recommend establishing initial communication through the chat of our platform. This step is crucial to clarify any relevant details about the job offer and ensure that both parties have aligned expectations.
+
+Some important points to discuss in this initial stage may include:
+
+- **Specific Details of the Offer**: Make sure the freelancer fully understands what is expected of them in the project :page_with_curl:.
+- **Inquiries about Availability**: Verify if the freelancer is available to take on your project and what their working hours would be, especially if they are involved in other projects :calendar:.
+
+To start this conversation, simply click on the **"Chat"** button associated with the freelancer's proposal. This initial dialogue can be decisive in ensuring the project's success and satisfaction of both parties.
+
+<img src="/img/contratar3.png" alt="How to open the chat extension to communicate with the Freelancer" title="Accessing the chat extension to communicate with the Freelancer"  />
+
+### Navigating the Chat Window
+
+In the chat interface, you will find on the left a list of the different open chats and, on the right, the content of the selected conversations. Additionally, you can take advantage of using the "/" command to quickly access specific functions, such as requesting an offer.
+
+<img src="/img/chat1.png" alt="Example of how the chat extension works" title="How the chat extension works"  />
+
+## Selecting an Offer from a Freelancer 📬
+
+Right next to the Chat button, you have the option to choose a freelancer, simply click on the **"Hire"** button :arrow_right_hook:. A window will open where you can select the payment method you wish to use to hire the freelancer.
+In this case, it's important to differentiate between the two available payment options:
+
+- **Crypto**: For users who are registered with a Wallet and wish to pay in cryptocurrencies.
+- **Bank Account**: For users who are registered with an Email and wish to pay in fiat currency.
+
+<img src="/img/contratar4.png" alt="How to hire a Freelancer" title="How to hire a Freelancer"  />
+
+## Sending a Contract Offer to the Freelancer
+
+### Crypto Contract Offer
+
+To initiate this process, the **"Send a Offer"** window will open, where you can see all the default details that were provided in the offer sent by the freelancer. These include the work to be developed, the price, and the delivery date. It's important to mention that you have the freedom to modify these details as agreed with the freelancer.
+
+Additionally, it's necessary to select the network on which you wish to deploy the Smart Contract, as well as the token to use. The currently available options are:
+
+- **Available Networks**: Ethereum, Binance, Polygon, Testnet (Only in test mode)
+- **Tokens**: Usdt, Usdc, BNB, Dai, Custom Token (Only in test mode)
+
+<img src="/img/enviarcontrato1.png" alt="Template for sending an offer to the Freelancer" title="Sending an offer to the Freelancer"  />
+
+Finally, regarding the contract options, you can choose between:
+
+- Fixed Price (with or without milestones)
+- Hourly Rate
+
+<img src="/img/enviarcontrato2.png" alt="Details for sending a Fixed Price offer" title="Details for sending a Fixed Price offer"  />
+
+Each option is detailed below to facilitate your choice:
+
+#### Fixed Price (with or without milestones)
+
+- **What is it?**: This option allows agreeing on a total fixed price for the entire project. It's ideal for projects with well-defined objectives and scopes.
+- **With Milestones**: Milestones are divisions of the project into specific stages or deliverables. Here, payment is divided and released as these milestones are completed, providing a clear structure of progress and payment for both parties.
+- **Without Milestones**: Involves a single payment at the end of the project, without intermediate divisions.
+
+#### Hourly Rate
+
+- **What is it?**: With this option, the freelancer is paid based on hours worked. It's the preferred option for projects with less defined scopes or that may require adjustments and changes during their development.
+- **Flexibility**: Offers the possibility to adapt the workload according to the project's needs, paying exactly for the time dedicated.
+
+Choosing between a fixed price or hourly rate depends on the nature of the project, the preference for flexibility in work management, and how you prefer to structure payments.
+
+### Fiat Contract Offer
+
+In the case of selecting the fiat payment option, the **"Send a Offer"** window will open, similar to the crypto offer, where you can see all the default details provided in the offer sent by the freelancer. These include the work to be developed, the price, and the delivery date. It's important to mention that you have the freedom to modify these details as agreed with the freelancer, similar to the previous description.

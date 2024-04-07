@@ -1,15 +1,27 @@
 {
   "title": {
-    "message": "My Site",
+    "message": "Trabajosonline Documentation",
     "description": "The title in the navbar"
   },
   "logo.alt": {
-    "message": "My Site Logo",
+    "message": "Logo Trabajosonline",
     "description": "The alt text of navbar logo"
   },
-  "item.label.Tutorial": {
-    "message": "Tutorial",
-    "description": "Navbar item with label Tutorial"
+  "item.label.Inicio": {
+    "message": "Home",
+    "description": "Navbar item with label Inicio"
+  },
+  "item.label.Api Endpoints": {
+    "message": "Api Endpoints",
+    "description": "Navbar item with label Api Endpoints"
+  },
+  "item.label.Anuncios": {
+    "message": "Announcements",
+    "description": "Navbar item with label Anuncios"
+  },
+  "item.label.Buscar Trabajos": {
+    "message": "Find Jobs",
+    "description": "Navbar item with label Buscar Trabajos"
   },
   "item.label.Discord": {
     "message": "Discord",

@@ -1,6 +1,6 @@
 {
   "title": {
-    "message": "Trabajosonline Dokumentation",
+    "message": "Trabajosonline Documentación",
     "description": "The title in the navbar"
   },
   "logo.alt": {
@@ -8,19 +8,19 @@
     "description": "The alt text of navbar logo"
   },
   "item.label.Inicio": {
-    "message": "Home",
+    "message": "Inicio",
     "description": "Navbar item with label Inicio"
   },
   "item.label.Api Endpoints": {
-    "message": "API-Endpunkte",
+    "message": "Api Endpoints",
     "description": "Navbar item with label Api Endpoints"
   },
   "item.label.Anuncios": {
-    "message": "Ankündigungen",
+    "message": "Anuncios",
     "description": "Navbar item with label Anuncios"
   },
   "item.label.Buscar Trabajos": {
-    "message": "Jobs finden",
+    "message": "Buscar Trabajos",
     "description": "Navbar item with label Buscar Trabajos"
   },
   "item.label.Discord": {

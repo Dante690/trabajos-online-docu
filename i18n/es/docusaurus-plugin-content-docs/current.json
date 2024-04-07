@@ -4,51 +4,51 @@
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Guia de Inicio": {
-    "message": "Getting Started Guide",
+    "message": "Guia de Inicio",
     "description": "The label for category Guia de Inicio in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Guia de Inicio.link.generated-index.description": {
-    "message": "Here you can find information to create an account and update your profile",
+    "message": "Aqui podras encontrar información para crearse una cuenta y actualizar el perfil",
     "description": "The generated-index page description for category Guia de Inicio in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Ofertas de Trabajo": {
-    "message": "Job Openings",
+    "message": "Ofertas de Trabajo",
     "description": "The label for category Ofertas de Trabajo in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Ofertas de Trabajo.link.generated-index.description": {
-    "message": "Here you can find information about the current job offers we have available.",
+    "message": "Aqui podras encontrar información acerca de las ofertas de empleo que tenemos disponibles en la actualidad.",
     "description": "The generated-index page description for category Ofertas de Trabajo in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Publicar una Oferta de Empleo": {
-    "message": "Post a Job",
+    "message": "Publicar una Oferta de Empleo",
     "description": "The label for category Publicar una Oferta de Empleo in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Publicar una Oferta de Empleo.link.generated-index.description": {
-    "message": "Here you can find information about how to post both salaried and freelance jobs",
+    "message": "Aqui podras encontrar información acerca de como publicar tanto trabajos asalariados como freelance",
     "description": "The generated-index page description for category Publicar una Oferta de Empleo in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Trabajos Freelance": {
-    "message": "Freelance Jobs",
+    "message": "Trabajos Freelance",
     "description": "The label for category Trabajos Freelance in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Trabajos Freelance.link.generated-index.description": {
-    "message": "Here you can find information on how to send proposals for Freelance jobs, review the status of your applications, and start working with a client.",
+    "message": "Aqui podras encontrar información de como enviar propuestas para trabajos Freelancers, revisar el estado de tus candidaturas, empezar a trabajar con un cliente.",
     "description": "The generated-index page description for category Trabajos Freelance in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Comenzar un trabajo Freelance": {
-    "message": "Getting Started as a Freelancer",
+    "message": "Comenzar un trabajo Freelance",
     "description": "The label for category Comenzar un trabajo Freelance in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Comenzar un trabajo Freelance.link.generated-index.description": {
-    "message": "Here you can find information on how to get started as a freelancer",
+    "message": "Aqui podras encontrar informacion sobre como comenzar un trabajo freelance",
     "description": "The generated-index page description for category Comenzar un trabajo Freelance in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Academia Crypto": {
-    "message": "Crypto Academy",
+    "message": "Academia Crypto",
     "description": "The label for category Academia Crypto in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Academia Crypto.link.generated-index.description": {
-    "message": "Here you can find information about the crypto academy",
+    "message": "Aqui podras encontrar informacion sobre la academia crypto",
     "description": "The generated-index page description for category Academia Crypto in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Extra": {
@@ -56,15 +56,15 @@
     "description": "The label for category Extra in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Extra.link.generated-index.description": {
-    "message": "Here you can find information about the development of our project.",
+    "message": "Aqui podras encontrar información acerca del desarrollo de nuestro proyecto.",
     "description": "The generated-index page description for category Extra in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Api": {
-    "message": "API",
+    "message": "Api",
     "description": "The label for category Api in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Api.link.generated-index.description": {
-    "message": "Here you can find information about the Trabajosonline API",
+    "message": "Aqui podras encontrar informacion sobre Api de trabajosonline",
     "description": "The generated-index page description for category Api in sidebar tutorialSidebar"
   }
 }

@@ -1,0 +1,49 @@
+---
+sidebar_position: 1
+---
+
+# Introduction
+
+Here we provide an overview of how contracts are developed for crypto jobs and fiat currency jobs on our platform.
+
+### Developing a Contract for Crypto Jobs 💻
+
+Once the client has secured funds in the Escrow contract, we are ready to begin the work.
+
+Remember that the Escrow contract is a guarantee agreement that protects both the Client and the Freelancer, ensuring that funds will only be released once the work is completed satisfactorily. Therefore, it's important to ensure that the work is carried out according to the client's specifications and within the specified time frame.
+
+Maintaining constant communication with the client is important to ensure that the work is progressing according to their expectations. We'll keep in touch with the client directly through the platform's chat to address any questions or concerns that may arise during the project development.
+
+### Communication Policy 🚫📱
+
+To ensure the security and transparency of all interactions within our platform, it's important to adhere to our established communication policies.
+
+**Contacting clients through external means outside of the application's chat is not permitted.** The platform provides all the necessary tools for effective and secure communication between freelancers and clients.
+
+If a client requests communication through a different medium, it is essential to **report this situation to our support team.** This allows us to maintain a safe environment for all our users and prevent potential misunderstandings or issues.
+
+To report any inappropriate requests for external communication, please go to the support section of our application.
+
+### Deliverables and Review 📥
+
+Once the work is completed, it's important to deliver the final files to the client for review. If the client requests modifications or adjustments, we are willing to make the necessary changes to ensure their satisfaction.
+
+### Marking as Completed and Withdrawing Funds ✅💸
+
+After completing the project or reaching a specific milestone, we mark the task as completed. The client then has a protection period of approximately **14 days to release the funds** or request a review of the delivered work.
+
+If during this period the client does not raise any objections and the funds have not been released, we can proceed to withdraw them using the **"Withdraw Funds"** button. This process automatically transfers the funds to our digital wallet, completing the transaction.
+
+### Client Evaluation ⭐
+
+Once the funds have been released, the client has the opportunity to evaluate our work and provide feedback on their experience. These evaluations are essential for building a solid reputation on the platform and attracting new clients.
+
+Remember that positive evaluations are an excellent way to stand out among the competition and increase your chances of being hired for future projects.
+
+### Developing a Contract for Fiat Currency Jobs 💰
+
+For jobs with fiat currency, the process is similar to that of jobs with cryptocurrencies. Once the client has secured the funds in the Escrow contract, we are ready to begin the work.
+
+## Ready for Your Next Project! 🎉
+
+With these steps, we have successfully completed our first job on the platform. Now we are ready to embark on new projects and continue growing as a Freelancer.

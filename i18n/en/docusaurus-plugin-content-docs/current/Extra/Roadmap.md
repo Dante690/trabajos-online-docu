@@ -1,0 +1,90 @@
+---
+sidebar_position: 1
+---
+
+## Betting on a Future with More Opportunities
+
+At Trabajosonline, our vision is focused on expanding employment opportunities, both for freelancers and salaried employees, offering flexible payments in fiat currencies (€, $) and cryptocurrencies. Our mission is to develop our Marketplace for Freelancers and Companies, creating an environment where innovation and opportunities are within everyone's reach.
+
+## Roadmap
+
+**Introduction**: Our team is deeply committed to continuous innovation and improving our platform. Below, we present a preview of our current projects and what you can expect in the future.
+
+### Roadmap Milestones:
+
+#### Q2 2023 ✅ _-- Completed --_
+
+- **Description**: Launch of the user interface for Trabajosonline.
+  - Development and creation of the Trabajosonline APP.
+  - Design and prototype of the MVP for Freelancer jobs.
+
+#### Q3 2023 ✅ _-- Completed --_
+
+- **Description**: APP improvements and new functionalities for the user panel.
+  - Implementation of login with email and cryptocurrency wallet.
+  - Completed in Dashboard: My Jobs, My Favorites, My Proposals.
+  - Integration of Backend and Frontend of the APP.
+
+#### Q4 2023 ✅ _-- Completed --_
+
+- **Description**: Development of the APP for Trabajosonline - Freelance Services Marketplace.
+  - Development and implementation of Escrow Defi Smart Contracts.
+  - Cryptocurrency Payment Networks (Testnet, Ethereum, Polygon, Binance Smart Chain).
+  - Added fixed price payment, hourly payment, milestones to smart contracts, and UI.
+  - Completed in Dashboard My Orders (management milestones, release, dispute, etc.).
+  - Ratings for Freelancers and Clients.
+  - TRB Tokenomics and Economy.
+
+#### Q1 2024 ✅ _-- In Development --_
+
+- **Description**: APP finalization, development of the Frontend (Website), Beta Tester.
+  - Chat between clients and freelancers.
+  - Opening of our Beta.
+  - "Contracts and Security: Audits and review of the smart contracts code."
+  - "Extension to the Escrow Fiat Payment Platform: Stripe."
+  - "SSR Jobs: Server-side rendering of jobs."
+  - Jobs V.2.0 New user interface.
+  - Documentation v.1.0.
+  - Multichannel marketing.
+
+#### Q2 2024
+
+- **Description**: Launch of the Website + App.
+  - Native Android client, iOS client.
+  - "Cryptocurrencies: Extension for Ledger, Trezor, Coinbase Wallet, Wallet Connect."
+  - Advertisement/rewards campaigns.
+  - AI support and help.
+  - Affiliate Program.
+  - Services for gig workers.
+  - Email notification of new jobs.
+  - Launch of TRB token (IDO Schedule).
+  - Launch of Bitcoin Escrow multisig contract.
+  - Expansion to other networks SOLANA, CARDANO, AVALANCHE.
+  - Complete integration of web3 into our UI.
+  - Multichannel marketing.
+
+#### Q3 2024
+
+- **Description**: UI expansion add plugins.
+
+  - Connect profiles with Github.
+  - Build global ranking profile (test, etc.).
+  - Direct Contracts, create and send contract proposals to clients not on Trabajos.
+  - Custom network adjustments.
+  - Establish partnerships with other companies in the sector.
+  - Launch of Enterprise Suite.
+  - AI job assistant (CV generation and job postings with AI, Job compatibility with our profile).
+  - Multichannel marketing.
+
+## Investment Opportunities at Trabajosonline 💼
+
+Trabajosonline is a growing platform with a clear vision for the future. If you are interested in investing in our platform, we currently present two main avenues for investors:
+
+1. **Pre-Seed Stage**: An exclusive opportunity to get in on the ground floor, participating in the initial funding phases and contributing to the fundamental development of the platform.
+2. **TRB Token IDO (Initial Dex Offering)**: For those interested in the crypto aspect of investments, our IDO offers a unique opportunity to invest in the TRB token, designed to power and facilitate transactions within our platform.
+
+### Investment Round
+
+An exclusive opportunity to get in on the ground floor, participating in the initial funding phases and contributing to the fundamental development of the platform.
+
+For a PreMoney valuation, please contact us via our email at investors@trabajosonline.org

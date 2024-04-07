@@ -1,18 +1,70 @@
 {
   "version.label": {
-    "message": "Next",
-    "description": "The label for version current"
+    "message": "Nächst",
+    "description": "Das Label für die aktuelle Version"
   },
-  "sidebar.tutorialSidebar.category.Tutorial - Basics": {
-    "message": "Tutorial - Basics",
-    "description": "The label for category Tutorial - Basics in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Guia de Inicio": {
+    "message": "Einstiegsanleitung",
+    "description": "Das Label für die Kategorie Einstiegshandbuch im Seitenleisten-Tutorial"
   },
-  "sidebar.tutorialSidebar.category.Tutorial - Basics.link.generated-index.description": {
-    "message": "5 minutes to learn the most important Docusaurus concepts.",
-    "description": "The generated-index page description for category Tutorial - Basics in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Guia de Inicio.link.generated-index.description": {
+    "message": "Hier finden Sie Informationen zur Erstellung eines Kontos und zur Aktualisierung Ihres Profils",
+    "description": "Die Beschreibung der generierten Indexseite für die Kategorie Einstiegshandbuch im Seitenleisten-Tutorial"
   },
-  "sidebar.tutorialSidebar.category.Tutorial - Extras": {
-    "message": "Tutorial - Extras",
-    "description": "The label for category Tutorial - Extras in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Ofertas de Trabajo": {
+    "message": "Stellenangebote",
+    "description": "Das Label für die Kategorie Stellenangebote im Seitenleisten-Tutorial"
+  },
+  "sidebar.tutorialSidebar.category.Ofertas de Trabajo.link.generated-index.description": {
+    "message": "Hier finden Sie Informationen über die aktuellen Stellenangebote, die wir haben.",
+    "description": "Die Beschreibung der generierten Indexseite für die Kategorie Stellenangebote im Seitenleisten-Tutorial"
+  },
+  "sidebar.tutorialSidebar.category.Publicar una Oferta de Empleo": {
+    "message": "Eine Stelle ausschreiben",
+    "description": "Das Label für die Kategorie Eine Stelle ausschreiben im Seitenleisten-Tutorial"
+  },
+  "sidebar.tutorialSidebar.category.Publicar una Oferta de Empleo.link.generated-index.description": {
+    "message": "Hier finden Sie Informationen dazu, wie Sie sowohl Festanstellungen als auch freiberufliche Jobs ausschreiben können",
+    "description": "Die Beschreibung der generierten Indexseite für die Kategorie Eine Stelle ausschreiben im Seitenleisten-Tutorial"
+  },
+  "sidebar.tutorialSidebar.category.Trabajos Freelance": {
+    "message": "Freiberufliche Jobs",
+    "description": "Das Label für die Kategorie Freiberufliche Jobs im Seitenleisten-Tutorial"
+  },
+  "sidebar.tutorialSidebar.category.Trabajos Freelance.link.generated-index.description": {
+    "message": "Hier finden Sie Informationen dazu, wie Sie Vorschläge für freiberufliche Jobs senden, den Status Ihrer Bewerbungen überprüfen und mit einem Kunden zusammenarbeiten können.",
+    "description": "Die Beschreibung der generierten Indexseite für die Kategorie Freiberufliche Jobs im Seitenleisten-Tutorial"
+  },
+  "sidebar.tutorialSidebar.category.Comenzar un trabajo Freelance": {
+    "message": "Als Freiberufler anfangen",
+    "description": "Das Label für die Kategorie Als Freiberufler anfangen im Seitenleisten-Tutorial"
+  },
+  "sidebar.tutorialSidebar.category.Comenzar un trabajo Freelance.link.generated-index.description": {
+    "message": "Hier finden Sie Informationen dazu, wie Sie als Freiberufler beginnen können",
+    "description": "Die Beschreibung der generierten Indexseite für die Kategorie Als Freiberufler anfangen im Seitenleisten-Tutorial"
+  },
+  "sidebar.tutorialSidebar.category.Academia Crypto": {
+    "message": "Krypto Akademie",
+    "description": "Das Label für die Kategorie Krypto Akademie im Seitenleisten-Tutorial"
+  },
+  "sidebar.tutorialSidebar.category.Academia Crypto.link.generated-index.description": {
+    "message": "Hier finden Sie Informationen über die Krypto-Akademie",
+    "description": "Die Beschreibung der generierten Indexseite für die Kategorie Krypto Akademie im Seitenleisten-Tutorial"
+  },
+  "sidebar.tutorialSidebar.category.Extra": {
+    "message": "Extra",
+    "description": "Das Label für die Kategorie Extra im Seitenleisten-Tutorial"
+  },
+  "sidebar.tutorialSidebar.category.Extra.link.generated-index.description": {
+    "message": "Hier finden Sie Informationen über die Entwicklung unseres Projekts.",
+    "description": "Die Beschreibung der generierten Indexseite für die Kategorie Extra im Seitenleisten-Tutorial"
+  },
+  "sidebar.tutorialSidebar.category.Api": {
+    "message": "API",
+    "description": "Das Label für die Kategorie API im Seitenleisten-Tutorial"
+  },
+  "sidebar.tutorialSidebar.category.Api.link.generated-index.description": {
+    "message": "Hier finden Sie Informationen über die Trabajosonline API",
+    "description": "Die Beschreibung der generierten Indexseite für die Kategorie API im Seitenleisten-Tutorial"
   }
 }

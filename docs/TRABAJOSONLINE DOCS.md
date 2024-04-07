@@ -29,7 +29,7 @@ Esta documentación le ayudará en todo el proceso de búsqueda de trabajo para 
   - Ver el [estado de mis candidaturas](./Trabajos%20Freelance/Estado%20de%20mis%20candidaturas#seguimiento-del-estado-de-las-candidaturas-mag_right).
   - [Aceptar](./Trabajos%20Freelance/Estado%20de%20mis%20candidaturas#oferta-del-cliente-con-pago-en-cryptomonedas) un trabajo y [comenzar](./Comenzar%20un%20trabajo%20Freelance/Introduccion#como-se-desarrolla-el-contrato-para-trabajos-crypto-computer) a trabajar.
 - :moneybag: [Tarifas](./Trabajos%20Fees#-tarifas-de-publicaci%C3%B3n-para-empresas-en-trabajosonlineorg) de servicios para Empresas
-- :credit_card: [Formas de pago](./Trabajos%20Freelance/Contratar%20un%20Freelancer#oferta-de-contrato-crypto) de un proyecto Freelancer (**Precio Fijo** (con o sin Milestones), **Por hora**)
+- :credit_card: [Formas de pago](./Trabajos%20Freelance/Contratar%20un%20Freelancer#seleccionar-una-oferta-de-un-frelancer-) de un proyecto Freelancer (**Precio Fijo** (con o sin Milestones), **Por hora**)
 - :receipt: Trabajos [Fees](Trabajos%20Fees#-tarifas-de-publicaci%C3%B3n-para-empresas-en-trabajosonlineorg)
 - :information_source: [Airdrops](Airdrop#programa-de-recompensas)
 

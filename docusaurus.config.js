@@ -34,13 +34,16 @@ const config = {
     locales: ["es", "en", "de"],
     localeConfigs: {
       en: {
-        htmlLang: "en-GB",
+        htmlLang: "en-US",
+        label: "English",
       },
       es: {
         htmlLang: "es-ES",
+        label: "Español",
       },
       de: {
         htmlLang: "de-DE",
+        label: "Deutsch",
       },
     },
   },

@@ -1,0 +1,55 @@
+---
+sidebar_position: 2
+---
+
+# Jobs application Status
+
+## Tracking the Status of Applications :mag_right:
+
+To monitor the status of your applications on **Trabajos Online**, you need to log in and go to the top right menu, select **"My Proposals"**. In this section, by choosing a specific job offer, you can view the current status of your application, which can be in one of the following stages:
+
+<img src="/img/mispropuestas.png" alt="How to access my proposals sent to clients" title="How to access my proposals sent to clients"  />
+
+### Application States
+
+1. **Proposal Sent**: Your proposal has been sent to the client, who has not yet accepted it. At this stage, if the client is interested, they may open a direct chat to discuss some aspects of your proposal. It's also possible to review the details of your proposal to ensure everything is correct :envelope_with_arrow:.
+
+<img src="/img/estadocandidatura1.png" alt="How to review a proposal sent to the client" title="How to review our proposal"  />
+
+2. **Proposal Accepted by the Client**: The client has accepted your proposal and sends you a final contract proposal for your approval. You can review the proposal in detail by selecting **"View Offer"** :eyes:.
+
+<img src="/img/estadocandidatura2.png" alt="How to view a proposal sent by the client" title="The client has sent us a proposal"  />
+
+### Client's Offer with Cryptocurrency Payment
+
+Accessing, you can find the client's offer. At the top, you will find a status bar indicating at what point the contract process is.
+
+<img src="/img/estadocandidatura3.png" alt="How to review the Client's proposal" title="How to review the Client's proposal"  />
+
+Below are detailed the details of both the client and the user, the blockchain of the proposal, the token used, the price of the contract, and the delivery time.
+
+3. **Proposal Acceptance**: Below the above information, a box will open where you can accept the client's proposal, thus moving to the next step of the process :white_check_mark:.
+
+<img src="/img/estadocandidatura4.png" alt="How to approve a client's proposal" title="How to approve a client's proposal"  />
+
+### Contract Deployment and Fund Deposit:
+
+In the case of agreements in cryptocurrencies, the client proceeds to deploy the contract and deposit the corresponding funds :moneybag:.
+
+<img src="/img/estadocandidatura5.png" alt="Deploy of the Escrow contract and deposit funds" title="Deploy of the Escrow contract and deposit the funds"  />
+
+Once the contract is deployed, we can access all its details such as the contract address, the token used, the price of the contract, and the delivery time.
+
+<img src="/img/estadocandidatura6.png" alt="Successfully deployed contract and addresses" title="Successfully deployed contract and its data"  />
+
+### Confirmation of Fund Deposit:
+
+We receive confirmation on the platform that the client has deposited the funds, and we can start working on the project.
+
+<img src="/img/estadocandidatura7.png" alt="Check the project status if the client has deposited the funds" title="Check the project status if the client has deposited the funds"  />
+
+By following all these steps, you will be able to stay informed about the progress of your applications, from the initial submission of the proposal to the final acceptance of the contract and the deposit of funds.
+
+### Client's Offer with Fiat Payment
+
+The process is similar to the previous one, but in this case, the client will send you a contract offer with payment in fiat currency. You can review the details of the offer and accept it if you agree with the proposed terms.
