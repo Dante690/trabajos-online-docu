@@ -36,6 +36,7 @@ const config = {
       en: {
         htmlLang: "en-US",
         label: "English",
+        path: "en",
       },
       es: {
         htmlLang: "es-ES",
@@ -44,6 +45,7 @@ const config = {
       de: {
         htmlLang: "de-DE",
         label: "Deutsch",
+        path: "de",
       },
     },
   },
