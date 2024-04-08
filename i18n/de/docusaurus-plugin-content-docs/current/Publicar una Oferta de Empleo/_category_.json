@@ -1,0 +1,8 @@
+{
+  "label": "Post a Job",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Here you can find information about how to post both salaried and freelance jobs"
+  }
+}

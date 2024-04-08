@@ -32,7 +32,6 @@ const config = {
   i18n: {
     defaultLocale: "es",
     locales: ["es", "en", "de"],
-    path: "i18n",
     localeConfigs: {
       en: {
         htmlLang: "en-US",
@@ -42,6 +41,7 @@ const config = {
       es: {
         htmlLang: "es-ES",
         label: "Español",
+        path: "es",
       },
       de: {
         htmlLang: "de-DE",
