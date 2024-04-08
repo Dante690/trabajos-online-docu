@@ -3,7 +3,7 @@ sidebar_position: 1
 slug: /
 ---
 
-## Welcome to our job platform! :confetti_ball:
+## Welcome to our job platform!! :confetti_ball:
 
 **Here you will find information about how our platform works, post job offers, answer questions and doubts, tips to improve your profile and job search or recruitment experience.** <img src="/img/logo-trabajos.jpg" alt="Trabajosonline Logo" title="Welcome to Trabajosonline" width="20" height="20" />
 
