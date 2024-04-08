@@ -18,7 +18,7 @@ slug: /
 
 This documentation will assist you throughout the job search process for Users, Freelancers, and companies searching for candidates:
 
-- :bust_in_silhouette: How to register -as a user, freelancer](./Guia%20de%20Inicio/Como%20empezar#registration-as-a-user-or-freelancer-bust_in_silhouette) or -company](./Guia%20de%20Inicio/Como%20empezar#registration-as-a-company)
+<!-- - :bust_in_silhouette: How to register -as a user, freelancer](./Guia%20de%20Inicio/Como%20empezar#registration-as-a-user-or-freelancer-bust_in_silhouette) or -company](./Guia%20de%20Inicio/Como%20empezar#registration-as-a-company)
 - :pencil2: -Filling out your profile](./Guia%20de%20Inicio/Actualiza%20tu%20perfil#how-to-complete-your-profile-) (users, companies)
 - :handshake: How to -apply](./Trabajos%20Freelance/Enviar%20una%20propuesta#sending-proposals-to-clients-mailbox_with_mail) for different job positions (Users, Freelancer)
 - :loudspeaker: How to -post](./Publicar%20una%20Oferta%20de%20Empleo/Oferta%20de%20trabajo%20asalariado#job-offers-for-companies-briefcase) a company job offer
@@ -31,7 +31,7 @@ This documentation will assist you throughout the job search process for Users, 
 - :moneybag: Subscriptions Service -fees](./Trabajos%20Fees#-posting-rates-for-companies-at-trabajosonlineorg) for Companies
 - :credit_card: -Payment methods](./Trabajos%20Freelance/Contratar%20un%20Freelancer#sending-a-contract-offer-to-the-freelancer) for a Freelancer project (**Fixed Price** (with or without Milestones), **Per Hour**)
 - :receipt: Jobs -Fees](./Trabajos%20Fees#-posting-rates-for-companies-at-trabajosonlineorg)
-- :information_source: -Airdrops](Airdrop#rewards-program)
+- :information_source: -Airdrops](Airdrop#rewards-program) -->
 
 ## Official Channels
 
