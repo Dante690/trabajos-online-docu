@@ -3,7 +3,7 @@ sidebar_position: 1
 slug: /
 ---
 
-## ¡Bienvenido a nuestra plataforma de empleo! :confetti_ball:
+## ¡Bienvenido a nuestra plataforma de empleo!! :confetti_ball:
 
 **Aqui podra encontrar informacion acerca de como funciona nuestra plataforma, publicar ofertas de empleo, resolver preguntas y dudas, consejos para mejorar su perfil y experiencia de búsqueda de empleo o reclutamiento.** <img src="/img/logo-trabajos.jpg" alt="Logo de Trabajosonline" title="Bienvenido a Trabajosonline" width="20" height="20" />
 
