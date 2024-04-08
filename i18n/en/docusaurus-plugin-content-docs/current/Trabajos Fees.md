@@ -12,7 +12,7 @@ At TrabajosOnline.org, we offer various options for companies seeking the best t
 
 - **Basic Price:** €145
 
-🎉 **Special Offers:** For the first ad posting, take advantage of our available discount coupons of €90.
+🎉 **Special Offers:** For the first job posting, take advantage of our available discount coupons of €90.
 
 ## Subscriptions for Companies
 
