@@ -8,7 +8,7 @@ sidebar_position: 9
 
 At TrabajosOnline.org, we offer various options for companies seeking the best talents. Our rates are designed to fit all needs, from startups to large corporations.
 
-## Express Advertisement Posting
+## Express Job Posting
 
 - **Basic Price:** €145
 
