@@ -61,7 +61,7 @@ const config = {
           routeBasePath: "/",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/dante690/trabajos-online-docu/tree/main",
+          //editUrl: "https://github.com/dante690/trabajos-online-docu/tree/main",
         },
         blog: false, //{
         // showReadingTime: true,
