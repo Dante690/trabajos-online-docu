@@ -17,7 +17,7 @@ To interact with the trabajosonline platform, it is necessary to create an accou
   }}
 >
   💡 <strong>Good to Know / Tip - Recommendation</strong><br />
-  If you are new to the world of cryptocurrencies and do not know what a wallet is, you can check our summary of basic concepts explained in <strong><a href="/Crypto%20Academy/Cryptocurrency%20Fundamentals#cryptocurrency-fundamentals-moneybag" style={{ color: '#007bff' }}>Cryptocurrency Fundamentals</a></strong> in our <strong><a href="/category/crypto-academy" style={{ color: '#007bff' }}>Crypto Academy</a></strong> section. It will help you understand what a wallet is and other fundamental concepts in the crypto space like blockchain, token, network...
+  If you are new to the world of cryptocurrencies and do not know what a wallet is, you can check our summary of basic concepts explained in <strong><a href="../Academia%20Crypto/Fundamentos%20de%20las%20Cryptomonedas" style={{ color: '#007bff' }}>Cryptocurrency Fundamentals</a></strong> in our <strong><a href="../category/academia-crypto" style={{ color: '#007bff' }}>Crypto Academy</a></strong> section. It will help you understand what a wallet is and other fundamental concepts in the crypto space like blockchain, token, network...
 </div>
 
 There are two types of registrations: as a **User/Freelancer** or as a **Company**.

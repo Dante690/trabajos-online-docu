@@ -17,7 +17,7 @@ Um mit der Trabajosonline-Plattform zu interagieren, ist es notwendig, ein Konto
   }}
 >
   💡 <strong>Gut zu wissen / Tipp - Empfehlung</strong><br />
-  Wenn Sie neu in der Welt der Kryptowährungen sind und nicht wissen, was ein Wallet ist, können Sie unseren Überblick über grundlegende Konzepte in <strong><a href="/Crypto%20Academy/Cryptocurrency%20Fundamentals#cryptocurrency-fundamentals-moneybag" style={{ color: '#007bff' }}>Grundlagen der Kryptowährung</a></strong> in unserem Abschnitt <strong><a href="/category/crypto-academy" style={{ color: '#007bff' }}>Crypto Academy</a></strong> nachlesen. Es wird Ihnen helfen zu verstehen, was ein Wallet ist und andere grundlegende Konzepte im Krypto-Bereich wie Blockchain, Token, Netzwerk...
+  Wenn Sie neu in der Welt der Kryptowährungen sind und nicht wissen, was ein Wallet ist, können Sie unseren Überblick über grundlegende Konzepte in <strong><a href="../Academia%20Crypto/Fundamentos%20de%20las%20Cryptomonedas" style={{ color: '#007bff' }}>Grundlagen der Kryptowährung</a></strong> in unserem Abschnitt <strong><a href="../category/academia-crypto" style={{ color: '#007bff' }}>Crypto Academy</a></strong> nachlesen. Es wird Ihnen helfen zu verstehen, was ein Wallet ist und andere grundlegende Konzepte im Krypto-Bereich wie Blockchain, Token, Netzwerk...
 </div>
 
 Es gibt zwei Arten der Registrierung: als **Benutzer/Freelancer** oder als **Unternehmen**.
