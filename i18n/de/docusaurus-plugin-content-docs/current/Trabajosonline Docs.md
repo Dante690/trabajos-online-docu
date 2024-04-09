@@ -51,6 +51,6 @@ Diese Dokumentation wird Sie durch den gesamten Prozess der Jobsuche für Benutz
 
 - :loudspeaker: Neue Änderungen auf unserer [Plattform](./Anuncios#-version-10-der-dokumentation-auf-spanisch-englisch-und-deutsch)
 
-## Ich habe Feedback!
+## Feedback!
 
-- 💡 Wenn Sie Ideen oder Vorschläge haben oder Feedback zu unserer Dokumentation haben, können Sie uns über unseren [Discord](https://discord.gg/2xhBfw5tQN) kontaktieren.
+- Wir laden Sie ein, die neue Dokumentation zu erkunden und hoffen, dass sie Ihnen gefällt! 🚀 Hinterlassen Sie Ihre Kommentare durch unseren [Discord](https://discord.gg/2xhBfw5tQN)

@@ -51,6 +51,6 @@ This documentation will assist you throughout the job search process for Users, 
 
 - :loudspeaker: New changes on our [platform](./Anuncios#-version-10-of-the-documentation-in-spanish-english-and-german)
 
-## I Have Feedback!
+## Feedback!
 
-- :bulb: If you have any ideas or suggestions, or any feedback regarding our documentation, you can contact us through our [Discord](https://discord.gg/2xhBfw5tQN).
+- We invite you to explore the new documentation and hope you like it! 🚀 Feel free to leave your comments on [Discord](https://discord.gg/2xhBfw5tQN)

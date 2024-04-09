@@ -30,4 +30,4 @@ In parallel, we are launching version 1.2 of our frontend. This new version brin
 
 We will continue to improve and expand our documentation in other languages and work on future updates to our software to provide even more value to our community.
 
-We invite you to explore the new documentation and hope you like it! 🚀 Feel free to leave your comments on [Discord](https://discord.gg/2xhBfw5tQN)
+🚀 Feel free to leave your comments on [Discord](https://discord.gg/2xhBfw5tQN)

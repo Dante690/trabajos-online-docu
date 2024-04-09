@@ -51,6 +51,6 @@ Esta documentación le ayudará en todo el proceso de búsqueda de trabajo para 
 
 - :loudspeaker: Nuevos cambios en nuestra [plataforma](Anuncios.md#-anuncios)
 
-## ¡Tengo comentarios!
+## Feedback
 
-- :bulb: Si tienes alguna idea o sugerencia, o cualquier comentario sobre nuestra documentación puedes contactarnos a traves de nuestro [Discord](https://discord.gg/2xhBfw5tQN).
+- Te invitamos a explorar la nueva documentación y ¡Esperamos que te guste! 🚀 dejanos tus comentarios a través nuestro canal de [Discord](https://discord.gg/2xhBfw5tQN).
