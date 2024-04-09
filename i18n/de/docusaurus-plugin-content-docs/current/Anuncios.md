@@ -30,5 +30,4 @@ Parallel dazu führen wir die Version 1.2 unseres Frontends ein. Diese neue Vers
 
 Wir werden weiterhin unsere Dokumentation in anderen Sprachen verbessern und erweitern und an zukünftigen Updates unserer Software arbeiten, um unserer Gemeinschaft noch mehr Wert zu bieten.
 
-Wir laden Sie ein, die neue Dokumentation zu erkunden und hoffen, dass sie Ihnen gefällt! 🚀 Hinterlassen Sie Ihre Kommentare unter
-clientes@trabajosonline.org
+Wir laden Sie ein, die neue Dokumentation zu erkunden und hoffen, dass sie Ihnen gefällt! 🚀 Hinterlassen Sie Ihre Kommentare durch unseren [Discord](https://discord.gg/2xhBfw5tQN)

@@ -50,3 +50,7 @@ Esta documentación le ayudará en todo el proceso de búsqueda de trabajo para 
 ## Anuncios
 
 - :loudspeaker: Nuevos cambios en nuestra [plataforma](Anuncios.md#-anuncios)
+
+## ¡Tengo comentarios!
+
+- :bulb: Si tienes alguna idea o sugerencia, o cualquier comentario sobre nuestra documentación puedes contactarnos a traves de nuestro [Discord](https://discord.gg/2xhBfw5tQN).
