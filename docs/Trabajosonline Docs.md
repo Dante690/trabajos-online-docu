@@ -53,4 +53,4 @@ Esta documentación le ayudará en todo el proceso de búsqueda de trabajo para 
 
 ## Feedback
 
-- Te invitamos a explorar la nueva documentación y ¡Esperamos que te guste! 🚀 déjanos tus comentarios a través nuestro canal de [Discord](https://discord.gg/2xhBfw5tQN).
+- 🔍 Te invitamos a explorar la nueva documentación y ¡Esperamos que te guste! 🚀 déjanos tus comentarios a través nuestro canal de [Discord](https://discord.gg/2xhBfw5tQN).📣
