@@ -32,4 +32,4 @@ Paralelamente, estamos lanzando la versión 1.2 de nuestro frontend. Esta nueva 
 
 Continuaremos mejorando y expandiendo nuestra documentación en otros idiomas y trabajando en actualizaciones futuras de nuestro software para brindar aún más valor a nuestra comunidad.
 
-🚀 dejanos tus comentarios a través nuestro canal de [Discord](https://discord.gg/2xhBfw5tQN)
+🚀 Déjanos tus comentarios a través nuestro canal de [Discord](https://discord.gg/2xhBfw5tQN)
