@@ -1,8 +1,0 @@
----
-sidebar_position: 10
----
-
-## Programa de Recompensas
-
-Participe en nuestro programa de lealtad y acumule tokens para obtener bonificaciones exclusivas.
-Consulte nuestros programa de recompensas y descuentos en airdrops@trabajosonline.org
