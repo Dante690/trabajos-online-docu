@@ -1,41 +1,37 @@
-# Website
+# Documentación de Trabajosonline
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Este repositorio contiene la documentación pública de Trabajosonline generada con [Mintlify](https://mintlify.com/).
 
-### Installation
+## Requisitos
 
-```
-$ yarn
-```
+- Node.js 18 o superior
+- npm 9 o superior
 
-### Local Development
+## Desarrollo local
 
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
+```bash
+npm install
+npm run dev
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+El comando `npm run dev` inicia el servidor de desarrollo de Mintlify en modo watch.
 
-### Deployment
+## Generar la versión estática
 
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
+```bash
+npm run build
 ```
 
-Not using SSH:
+## Despliegue
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
+```bash
+npm run deploy
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Antes de ejecutar `npm run deploy` necesitas crear las variables de entorno `MINTLIFY_PROJECT_ID` y `MINTLIFY_API_KEY`, que se obtienen desde el panel de Mintlify. Puedes definirlas en tu terminal o en un archivo `.env`.
+
+Consulta la [guía oficial de Mintlify](https://mintlify.com/docs) para más opciones de despliegue.
+
+## Traducciones pendientes
+
+La migración a Mintlify solo incluye la documentación en español. Las traducciones que existían en Docusaurus (por ejemplo, inglés y alemán) no se han importado todavía y deberán revisarse y recrearse manualmente en la nueva estructura de `docs/`.

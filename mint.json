@@ -1,0 +1,63 @@
+{
+  "name": "Trabajosonline Docs",
+  "logo": {
+    "light": "/img/logo-trabajos.jpg",
+    "dark": "/img/logo-trabajos.jpg"
+  },
+  "navigation": [
+    {
+      "group": "Introducción",
+      "pages": [
+        "index",
+        "anuncios",
+        "airdrop",
+        "trabajos-fees"
+      ]
+    },
+    {
+      "group": "Guía de inicio",
+      "pages": [
+        "guia-inicio/como-empezar",
+        "guia-inicio/actualiza-tu-perfil"
+      ]
+    },
+    {
+      "group": "Ofertas y publicaciones",
+      "pages": [
+        "ofertas-trabajo/encuentra-trabajo",
+        "publicar-oferta/oferta-trabajo-asalariado",
+        "publicar-oferta/oferta-trabajo-freelancer"
+      ]
+    },
+    {
+      "group": "Trabajos freelance",
+      "pages": [
+        "trabajos-freelance/enviar-propuesta",
+        "trabajos-freelance/estado-candidaturas",
+        "trabajos-freelance/contratar-freelancer",
+        "comenzar-trabajo-freelance/introduccion",
+        "comenzar-trabajo-freelance/como-funcionan-disputas"
+      ]
+    },
+    {
+      "group": "Academia crypto",
+      "pages": [
+        "academia-crypto/fundamentos-cryptomonedas",
+        "academia-crypto/estados-contrato-inteligente"
+      ]
+    },
+    {
+      "group": "API",
+      "pages": [
+        "api/busqueda-ofertas"
+      ]
+    },
+    {
+      "group": "Extras",
+      "pages": [
+        "extra/roadmap",
+        "extra/tokenomics"
+      ]
+    }
+  ]
+}
