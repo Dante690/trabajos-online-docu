@@ -1,62 +1,134 @@
 {
+  "$schema": "https://mintlify.com/schema.json",
   "name": "Trabajosonline Docs",
   "logo": {
-    "light": "/img/logo-trabajos.jpg",
-    "dark": "/img/logo-trabajos.jpg"
+    "light": "/logo/logo.png",
+    "dark": "/logo/logo.png",
+    "href": "https://trabajosonline.org"
   },
+  "favicon": "/logo/logo.png",
+  "colors": {
+    "primary": "#2B9AF3",
+    "light": "#5AB4F5",
+    "dark": "#1A7ACC"
+  },
+  "tabs": [
+    {
+      "name": "English",
+      "url": "en"
+    },
+    {
+      "name": "Español",
+      "url": "es"
+    }
+  ],
   "navigation": [
     {
-      "group": "Introducción",
+      "group": "Introduction",
       "pages": [
-        "index",
-        "anuncios",
-        "airdrop",
-        "trabajos-fees"
+        "en/index",
+        "en/anuncios",
+        "en/airdrop",
+        "en/trabajos-fees"
       ]
     },
     {
-      "group": "Guía de inicio",
+      "group": "Getting Started",
       "pages": [
-        "guia-inicio/como-empezar",
-        "guia-inicio/actualiza-tu-perfil"
+        "en/guia-inicio/como-empezar",
+        "en/guia-inicio/actualiza-tu-perfil"
       ]
     },
     {
-      "group": "Ofertas y publicaciones",
+      "group": "Job Offers",
       "pages": [
-        "ofertas-trabajo/encuentra-trabajo",
-        "publicar-oferta/oferta-trabajo-asalariado",
-        "publicar-oferta/oferta-trabajo-freelancer"
+        "en/ofertas-trabajo/encuentra-trabajo",
+        "en/publicar-oferta/oferta-trabajo-asalariado",
+        "en/publicar-oferta/oferta-trabajo-freelancer"
       ]
     },
     {
-      "group": "Trabajos freelance",
+      "group": "Freelance Jobs",
       "pages": [
-        "trabajos-freelance/enviar-propuesta",
-        "trabajos-freelance/estado-candidaturas",
-        "trabajos-freelance/contratar-freelancer",
-        "comenzar-trabajo-freelance/introduccion",
-        "comenzar-trabajo-freelance/como-funcionan-disputas"
+        "en/trabajos-freelance/enviar-propuesta",
+        "en/trabajos-freelance/estado-candidaturas",
+        "en/trabajos-freelance/contratar-freelancer",
+        "en/comenzar-trabajo-freelance/introduccion",
+        "en/comenzar-trabajo-freelance/como-funcionan-disputas"
       ]
     },
     {
-      "group": "Academia crypto",
+      "group": "Crypto Academy",
       "pages": [
-        "academia-crypto/fundamentos-cryptomonedas",
-        "academia-crypto/estados-contrato-inteligente"
+        "en/academia-crypto/fundamentos-cryptomonedas",
+        "en/academia-crypto/estados-contrato-inteligente"
       ]
     },
     {
       "group": "API",
       "pages": [
-        "api/busqueda-ofertas"
+        "en/api/busqueda-ofertas"
       ]
     },
     {
       "group": "Extras",
       "pages": [
-        "extra/roadmap",
-        "extra/tokenomics"
+        "en/extra/roadmap",
+        "en/extra/tokenomics"
+      ]
+    },
+    {
+      "group": "Introducción",
+      "pages": [
+        "es/index",
+        "es/anuncios",
+        "es/airdrop",
+        "es/trabajos-fees"
+      ]
+    },
+    {
+      "group": "Guía de inicio",
+      "pages": [
+        "es/guia-inicio/como-empezar",
+        "es/guia-inicio/actualiza-tu-perfil"
+      ]
+    },
+    {
+      "group": "Ofertas y publicaciones",
+      "pages": [
+        "es/ofertas-trabajo/encuentra-trabajo",
+        "es/publicar-oferta/oferta-trabajo-asalariado",
+        "es/publicar-oferta/oferta-trabajo-freelancer"
+      ]
+    },
+    {
+      "group": "Trabajos freelance",
+      "pages": [
+        "es/trabajos-freelance/enviar-propuesta",
+        "es/trabajos-freelance/estado-candidaturas",
+        "es/trabajos-freelance/contratar-freelancer",
+        "es/comenzar-trabajo-freelance/introduccion",
+        "es/comenzar-trabajo-freelance/como-funcionan-disputas"
+      ]
+    },
+    {
+      "group": "Academia crypto",
+      "pages": [
+        "es/academia-crypto/fundamentos-cryptomonedas",
+        "es/academia-crypto/estados-contrato-inteligente"
+      ]
+    },
+    {
+      "group": "API",
+      "pages": [
+        "es/api/busqueda-ofertas"
+      ]
+    },
+    {
+      "group": "Extras",
+      "pages": [
+        "es/extra/roadmap",
+        "es/extra/tokenomics"
       ]
     }
   ]

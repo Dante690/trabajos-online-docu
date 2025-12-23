@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run dev:*)",
+      "Bash(curl:*)",
+      "Bash(identify:*)",
+      "Bash(cat:*)",
+      "Bash(pkill:*)",
+      "Bash(ls:*)",
+      "Bash(grep:*)",
+      "Bash(find:*)",
+      "Bash(git log:*)",
+      "Bash(git ls-tree:*)"
+    ]
+  }
+}
