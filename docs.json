@@ -1,0 +1,174 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Trabajosonline Docs",
+  "colors": {
+    "primary": "#2B9AF3",
+    "light": "#5AB4F5",
+    "dark": "#1A7ACC"
+  },
+  "favicon": "/logo/logo.png",
+  "logo": {
+    "light": "/logo/logo.png",
+    "dark": "/logo/logo.png",
+    "href": "https://trabajosonline.org"
+  },
+  "navigation": {
+    "languages": [
+      {
+        "language": "es",
+        "groups": [
+          {
+            "group": "Introducción",
+            "pages": ["es/index"]
+          },
+          {
+            "group": "Guía de inicio",
+            "pages": [
+              "es/guia-inicio/como-empezar",
+              "es/guia-inicio/actualiza-tu-perfil"
+            ]
+          },
+          {
+            "group": "Ofertas y publicaciones",
+            "pages": [
+              "es/ofertas-trabajo/encuentra-trabajo",
+              "es/publicar-oferta/oferta-trabajo-asalariado",
+              "es/publicar-oferta/oferta-trabajo-freelancer"
+            ]
+          },
+          {
+            "group": "Trabajos freelance",
+            "pages": [
+              "es/trabajos-freelance/enviar-propuesta",
+              "es/trabajos-freelance/estado-candidaturas",
+              "es/trabajos-freelance/contratar-freelancer",
+              "es/comenzar-trabajo-freelance/introduccion",
+              "es/comenzar-trabajo-freelance/como-funcionan-disputas"
+            ]
+          },
+          {
+            "group": "Contratación directa",
+            "pages": ["es/contratacion-directa/explorar-freelancers"]
+          },
+          {
+            "group": "Servicios",
+            "pages": ["es/servicios/crear-servicio"]
+          },
+          {
+            "group": "Academia crypto",
+            "pages": [
+              "es/academia-crypto/fundamentos-cryptomonedas",
+              "es/academia-crypto/estados-contrato-inteligente"
+            ]
+          },
+          {
+            "group": "API",
+            "pages": [
+              "es/api/mcp-setup",
+              "es/api/api-docs",
+              "es/api/busqueda-ofertas"
+            ]
+          },
+          {
+            "group": "Extras",
+            "pages": ["es/extra/roadmap", "es/extra/tokenomics"]
+          },
+          {
+            "group": "Fees",
+            "pages": ["es/trabajos-fees"]
+          },
+          {
+            "group": "Airdrop",
+            "pages": ["es/airdrop"]
+          },
+          {
+            "group": "Announcements",
+            "pages": ["es/anuncios"]
+          }
+        ]
+      },
+      {
+        "language": "en",
+        "groups": [
+          {
+            "group": "Introduction",
+            "pages": ["en/index"]
+          },
+          {
+            "group": "Getting Started",
+            "pages": [
+              "en/guia-inicio/como-empezar",
+              "en/guia-inicio/actualiza-tu-perfil"
+            ]
+          },
+          {
+            "group": "Job Offers",
+            "pages": [
+              "en/ofertas-trabajo/encuentra-trabajo",
+              "en/publicar-oferta/oferta-trabajo-asalariado",
+              "en/publicar-oferta/oferta-trabajo-freelancer"
+            ]
+          },
+          {
+            "group": "Freelance Jobs",
+            "pages": [
+              "en/trabajos-freelance/enviar-propuesta",
+              "en/trabajos-freelance/estado-candidaturas",
+              "en/trabajos-freelance/contratar-freelancer",
+              "en/comenzar-trabajo-freelance/introduccion",
+              "en/comenzar-trabajo-freelance/como-funcionan-disputas"
+            ]
+          },
+          {
+            "group": "Direct Hiring",
+            "pages": ["en/contratacion-directa/explorar-freelancers"]
+          },
+          {
+            "group": "Services",
+            "pages": ["en/servicios/crear-servicio"]
+          },
+          {
+            "group": "Crypto Academy",
+            "pages": [
+              "en/academia-crypto/fundamentos-cryptomonedas",
+              "en/academia-crypto/estados-contrato-inteligente"
+            ]
+          },
+          {
+            "group": "API",
+            "pages": [
+              "en/api/mcp-setup",
+              "en/api/api-docs",
+              "en/api/busqueda-ofertas"
+            ]
+          },
+          {
+            "group": "Extras",
+            "pages": ["en/extra/roadmap", "en/extra/tokenomics"]
+          },
+          {
+            "group": "Fees",
+            "pages": ["en/trabajos-fees"]
+          },
+          {
+            "group": "Airdrop",
+            "pages": ["en/airdrop"]
+          },
+          {
+            "group": "Announcements",
+            "pages": ["en/anuncios"]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "socials": {
+      "discord": "https://discord.gg/mNVcP2h4FP",
+      "telegram": "https://t.me/trabajosonlineweb",
+      "linkedin": "https://www.linkedin.com/company/trabajo-online",
+      "x": "https://x.com/Trabajoson54431"
+    }
+  }
+}
