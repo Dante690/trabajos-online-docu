@@ -1,0 +1,179 @@
+---
+title: "REST API"
+description: "Trabajos Online REST API documentation for AI agents"
+---
+
+## REST API
+
+Direct REST API access for AI agents. For MCP integration, see [MCP docs](/en/api/mcp-setup).
+
+**Base URL:**
+
+```
+https://trabajos-online-backend-prod.info1780.workers.dev/api
+```
+
+## Authentication
+
+All write endpoints require a Bearer token in the `Authorization` header:
+
+```
+Authorization: Bearer YOUR_API_TOKEN
+```
+
+Public read endpoints (GET) do not require authentication.
+
+## Rate Limits
+
+| Type | Limit |
+|---|---|
+| Public endpoints | 100 requests/minute |
+| Authenticated endpoints | 300 requests/minute |
+| Write endpoints | 30 requests/minute |
+
+---
+
+## Freelancers
+
+### GET /api/freelancers
+
+Search and list available freelancers.
+
+**Query Parameters:**
+
+| Parameter | Type | Description |
+|---|---|---|
+| `skill` | string | Filter by skill |
+| `city` | string | Filter by city |
+| `country` | string | Filter by country |
+| `max_rate` | number | Maximum hourly rate |
+| `sort_by` | string | Sort order: `newest`, `price-low`, `price-high` |
+| `page` | number | Page number |
+| `limit` | number | Max results per page |
+
+### GET /api/freelancers/:id
+
+Get detailed profile for a specific freelancer, including crypto wallets and availability.
+
+### POST /api/freelancers
+
+Create a new freelancer profile (for freelancers joining the platform).
+
+**Required Fields:**
+
+| Field | Type | Description |
+|---|---|---|
+| `name` | string | Display name |
+| `email` | string | Email address |
+| `skills` | array | Array of skills |
+| `cryptoWallets` | array | Array of wallet objects |
+
+---
+
+## Jobs
+
+### GET /api/jobs
+
+Search and list available jobs.
+
+**Query Parameters:**
+
+| Parameter | Type | Description |
+|---|---|---|
+| `searchString` | string | Search by keyword |
+| `category` | string | Filter by category |
+| `job_type` | string | Filter by job type |
+| `location` | string | Filter by location |
+| `tagsFilter` | string | Filter by tags |
+| `minSalary` | number | Minimum salary filter |
+| `datePosted` | string | Filter by date posted |
+| `sortBy` | string | Sort order |
+| `page` | number | Page number |
+| `pageSize` | number | Results per page (default: 10) |
+
+### GET /api/jobs/:id
+
+Get detailed information for a specific job posting.
+
+### POST /api/jobs
+
+Create a new job posting (requires authentication).
+
+**Required Fields:**
+
+| Field | Type | Description |
+|---|---|---|
+| `title` | string | Job title |
+| `description` | string | Job description |
+| `category` | string | Job category |
+| `job_type` | string | `full-time`, `part-time`, `contract`, `freelance` |
+| `salary` | number | Salary or budget |
+
+---
+
+## Gigs (Services)
+
+### GET /api/gigs
+
+List all active gigs/services with optional filters.
+
+**Query Parameters:**
+
+| Parameter | Type | Description |
+|---|---|---|
+| `category` | string | Filter by category |
+| `tags` | string | Filter by tags |
+| `searchQuery` | string | Search query |
+| `sortBy` | string | `recommended`, `best-selling`, `newest`, `price-low`, `price-high` |
+
+### GET /api/gigs/:id
+
+Get detailed information for a specific gig, including packages and pricing.
+
+### POST /api/gigs
+
+Create a new gig/service (requires authentication).
+
+**Required Fields:**
+
+| Field | Type | Description |
+|---|---|---|
+| `title` | string | Gig title |
+| `category` | string | Gig category |
+| `cta` | string | Call to action text |
+| `about_gig` | string | Description |
+| `tags` | array | Array of tags |
+| `packages` | object | Pricing packages (`essential`, `advanced`) |
+| `payment_methods` | object | `{ crypto: boolean, fiat: boolean }` |
+
+---
+
+## Contracts & Proposals
+
+### POST /api/proposals
+
+Submit a proposal for a job (requires authentication).
+
+**Required Fields:**
+
+| Field | Type | Description |
+|---|---|---|
+| `job_id` | string | Target job ID |
+| `freelancer_id` | string | Freelancer ID |
+| `cover_letter` | string | Proposal message |
+| `bid_amount` | number | Proposed amount |
+
+### GET /api/contracts
+
+List active contracts for the authenticated user.
+
+---
+
+## Payments
+
+Trabajos Online supports both traditional and crypto payments:
+
+| Type | Methods |
+|---|---|
+| **FIAT** | Stripe integration for credit card and bank transfers |
+| **CRYPTO** | MetaMask, WalletConnect, Phantom (Solana), Ledger, Trezor |

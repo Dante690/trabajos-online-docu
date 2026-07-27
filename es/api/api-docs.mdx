@@ -1,0 +1,179 @@
+---
+title: "API REST"
+description: "Documentación de la API REST de Trabajos Online para agentes de IA"
+---
+
+## API REST
+
+Acceso directo a la API REST para agentes de IA. Para integración MCP, consulta la [documentación MCP](/es/api/mcp-setup).
+
+**Base URL:**
+
+```
+https://trabajos-online-backend-prod.info1780.workers.dev/api
+```
+
+## Autenticación
+
+Todos los endpoints de escritura requieren un Bearer token en el header `Authorization`:
+
+```
+Authorization: Bearer YOUR_API_TOKEN
+```
+
+Los endpoints públicos de lectura (GET) no requieren autenticación.
+
+## Límites de Uso
+
+| Tipo | Límite |
+|---|---|
+| Endpoints públicos | 100 peticiones/minuto |
+| Endpoints autenticados | 300 peticiones/minuto |
+| Endpoints de escritura | 30 peticiones/minuto |
+
+---
+
+## Freelancers
+
+### GET /api/freelancers
+
+Busca y lista freelancers disponibles.
+
+**Parámetros de consulta:**
+
+| Parámetro | Tipo | Descripción |
+|---|---|---|
+| `skill` | string | Filtrar por habilidad |
+| `city` | string | Filtrar por ciudad |
+| `country` | string | Filtrar por país |
+| `max_rate` | number | Tarifa máxima por hora |
+| `sort_by` | string | Orden: `newest`, `price-low`, `price-high` |
+| `page` | number | Número de página |
+| `limit` | number | Máximo de resultados por página |
+
+### GET /api/freelancers/:id
+
+Obtiene el perfil detallado de un freelancer, incluyendo wallets crypto y disponibilidad.
+
+### POST /api/freelancers
+
+Crea un nuevo perfil de freelancer (para freelancers que se unen a la plataforma).
+
+**Campos requeridos:**
+
+| Campo | Tipo | Descripción |
+|---|---|---|
+| `name` | string | Nombre para mostrar |
+| `email` | string | Dirección de email |
+| `skills` | array | Array de habilidades |
+| `cryptoWallets` | array | Array de objetos de wallet |
+
+---
+
+## Jobs (Trabajos)
+
+### GET /api/jobs
+
+Busca y lista trabajos disponibles.
+
+**Parámetros de consulta:**
+
+| Parámetro | Tipo | Descripción |
+|---|---|---|
+| `searchString` | string | Buscar por palabra clave |
+| `category` | string | Filtrar por categoría |
+| `job_type` | string | Filtrar por tipo de trabajo |
+| `location` | string | Filtrar por ubicación |
+| `tagsFilter` | string | Filtrar por etiquetas |
+| `minSalary` | number | Filtro de salario mínimo |
+| `datePosted` | string | Filtrar por fecha de publicación |
+| `sortBy` | string | Orden de clasificación |
+| `page` | number | Número de página |
+| `pageSize` | number | Resultados por página (por defecto: 10) |
+
+### GET /api/jobs/:id
+
+Obtiene información detallada de una oferta de trabajo específica.
+
+### POST /api/jobs
+
+Crea una nueva oferta de trabajo (requiere autenticación).
+
+**Campos requeridos:**
+
+| Campo | Tipo | Descripción |
+|---|---|---|
+| `title` | string | Título del trabajo |
+| `description` | string | Descripción del trabajo |
+| `category` | string | Categoría del trabajo |
+| `job_type` | string | `full-time`, `part-time`, `contract`, `freelance` |
+| `salary` | number | Salario o presupuesto |
+
+---
+
+## Gigs (Servicios)
+
+### GET /api/gigs
+
+Lista todos los gigs/servicios activos con filtros opcionales.
+
+**Parámetros de consulta:**
+
+| Parámetro | Tipo | Descripción |
+|---|---|---|
+| `category` | string | Filtrar por categoría |
+| `tags` | string | Filtrar por etiquetas |
+| `searchQuery` | string | Consulta de búsqueda |
+| `sortBy` | string | `recommended`, `best-selling`, `newest`, `price-low`, `price-high` |
+
+### GET /api/gigs/:id
+
+Obtiene información detallada de un gig, incluyendo paquetes y precios.
+
+### POST /api/gigs
+
+Crea un nuevo gig/servicio (requiere autenticación).
+
+**Campos requeridos:**
+
+| Campo | Tipo | Descripción |
+|---|---|---|
+| `title` | string | Título del gig |
+| `category` | string | Categoría del gig |
+| `cta` | string | Texto de llamada a la acción |
+| `about_gig` | string | Descripción |
+| `tags` | array | Array de etiquetas |
+| `packages` | object | Paquetes de precios (`essential`, `advanced`) |
+| `payment_methods` | object | `{ crypto: boolean, fiat: boolean }` |
+
+---
+
+## Contratos y Propuestas
+
+### POST /api/proposals
+
+Envía una propuesta para un trabajo (requiere autenticación).
+
+**Campos requeridos:**
+
+| Campo | Tipo | Descripción |
+|---|---|---|
+| `job_id` | string | ID del trabajo objetivo |
+| `freelancer_id` | string | ID del freelancer |
+| `cover_letter` | string | Mensaje de la propuesta |
+| `bid_amount` | number | Monto propuesto |
+
+### GET /api/contracts
+
+Lista los contratos activos del usuario autenticado.
+
+---
+
+## Pagos
+
+Trabajos Online soporta pagos tradicionales y crypto:
+
+| Tipo | Métodos |
+|---|---|
+| **FIAT** | Integración con Stripe para tarjeta de crédito y transferencias bancarias |
+| **CRYPTO** | MetaMask, WalletConnect, Phantom (Solana), Ledger, Trezor |

@@ -34,9 +34,9 @@ Define these in your terminal session or in a `.env` file.
 ### Multilingual Structure
 
 The documentation uses a **folder-based multilingual structure**:
-- `en/` - English documentation (default language)
-- `es/` - Spanish documentation (Español)
-- Language tabs are defined in `mint.json` with English appearing first
+- `es/` - Spanish documentation (default language)
+- `en/` - English documentation
+- Language tabs are defined in `mint.json` with Spanish appearing first
 
 ### Documentation Structure
 
@@ -46,13 +46,15 @@ Documentation content is organized in language-specific folders (`en/` and `es/`
 - Page groupings
 - Logo configuration
 
-**Navigation groups** (English version):
+**Navigation groups** (Spanish version):
 - **Introducción**: Platform overview, announcements, airdrop info, fees
 - **Guía de inicio**: Getting started guides, profile setup
 - **Ofertas y publicaciones**: Finding and publishing job offers
 - **Trabajos freelance**: Proposal submission, hiring, contract management, disputes
+- **Contratación directa**: Browse and hire freelancers directly by the hour
+- **Servicios**: Create and manage gig services
 - **Academia crypto**: Cryptocurrency fundamentals, smart contract states
-- **API**: Search API documentation
+- **API**: MCP setup, REST API docs, search API
 - **Extras**: Roadmap, tokenomics
 
 ### Content Organization
@@ -64,8 +66,10 @@ Documentation follows a feature-based organization within each language folder:
 - `{lang}/publicar-oferta/` - Job posting (separated by employment type)
 - `{lang}/trabajos-freelance/` - Freelance workflow (Freelance Jobs)
 - `{lang}/comenzar-trabajo-freelance/` - Starting freelance work, dispute resolution
+- `{lang}/contratacion-directa/` - Direct freelancer hiring by the hour
+- `{lang}/servicios/` - Gig/service creation and management
 - `{lang}/academia-crypto/` - Educational content on crypto/blockchain (Crypto Academy)
-- `{lang}/api/` - API documentation
+- `{lang}/api/` - MCP setup, REST API docs, search API
 - `{lang}/extra/` - Roadmap and tokenomics (Extras)
 
 Where `{lang}` is either `en` or `es`.
@@ -84,7 +88,7 @@ Static assets (images, icons, etc.) must be placed in the `logo/` folder at the 
 
 - This is a **documentation-only** repository (no application code)
 - **Multilingual**: Content is available in English (`en/`) and Spanish (`es/`)
-- **Default language**: English is the default (first tab)
+- **Default language**: Spanish is the default (first tab)
 - Use `.mdx` extension for all documentation pages
 - Pages must be stored in the appropriate language folder (`en/` or `es/`)
 - After adding new pages, update `mint.json` navigation for both languages

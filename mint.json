@@ -20,84 +20,15 @@
   },
   "tabs": [
     {
-      "name": "English",
-      "url": "en"
-    },
-    {
       "name": "Español",
       "url": "es"
+    },
+    {
+      "name": "English",
+      "url": "en"
     }
   ],
   "navigation": [
-    {
-      "group": "Introduction",
-      "pages": [
-        "en/index"
-      ]
-    },
-    {
-      "group": "Getting Started",
-      "pages": [
-        "en/guia-inicio/como-empezar",
-        "en/guia-inicio/actualiza-tu-perfil"
-      ]
-    },
-    {
-      "group": "Job Offers",
-      "pages": [
-        "en/ofertas-trabajo/encuentra-trabajo",
-        "en/publicar-oferta/oferta-trabajo-asalariado",
-        "en/publicar-oferta/oferta-trabajo-freelancer"
-      ]
-    },
-    {
-      "group": "Freelance Jobs",
-      "pages": [
-        "en/trabajos-freelance/enviar-propuesta",
-        "en/trabajos-freelance/estado-candidaturas",
-        "en/trabajos-freelance/contratar-freelancer",
-        "en/comenzar-trabajo-freelance/introduccion",
-        "en/comenzar-trabajo-freelance/como-funcionan-disputas"
-      ]
-    },
-    {
-      "group": "Crypto Academy",
-      "pages": [
-        "en/academia-crypto/fundamentos-cryptomonedas",
-        "en/academia-crypto/estados-contrato-inteligente"
-      ]
-    },
-    {
-      "group": "API",
-      "pages": [
-        "en/api/busqueda-ofertas"
-      ]
-    },
-    {
-      "group": "Extras",
-      "pages": [
-        "en/extra/roadmap",
-        "en/extra/tokenomics"
-      ]
-    },
-    {
-      "group": "Fees",
-      "pages": [
-        "en/trabajos-fees"
-      ]
-    },
-    {
-      "group": "Airdrop",
-      "pages": [
-        "en/airdrop"
-      ]
-    },
-    {
-      "group": "Announcements",
-      "pages": [
-        "en/anuncios"
-      ]
-    },
     {
       "group": "Introducción",
       "pages": [
@@ -130,6 +61,18 @@
       ]
     },
     {
+      "group": "Contratación directa",
+      "pages": [
+        "es/contratacion-directa/explorar-freelancers"
+      ]
+    },
+    {
+      "group": "Servicios",
+      "pages": [
+        "es/servicios/crear-servicio"
+      ]
+    },
+    {
       "group": "Academia crypto",
       "pages": [
         "es/academia-crypto/fundamentos-cryptomonedas",
@@ -139,6 +82,8 @@
     {
       "group": "API",
       "pages": [
+        "es/api/mcp-setup",
+        "es/api/api-docs",
         "es/api/busqueda-ofertas"
       ]
     },
@@ -165,6 +110,89 @@
       "group": "Announcements",
       "pages": [
         "es/anuncios"
+      ]
+    },
+    {
+      "group": "Introduction",
+      "pages": [
+        "en/index"
+      ]
+    },
+    {
+      "group": "Getting Started",
+      "pages": [
+        "en/guia-inicio/como-empezar",
+        "en/guia-inicio/actualiza-tu-perfil"
+      ]
+    },
+    {
+      "group": "Job Offers",
+      "pages": [
+        "en/ofertas-trabajo/encuentra-trabajo",
+        "en/publicar-oferta/oferta-trabajo-asalariado",
+        "en/publicar-oferta/oferta-trabajo-freelancer"
+      ]
+    },
+    {
+      "group": "Freelance Jobs",
+      "pages": [
+        "en/trabajos-freelance/enviar-propuesta",
+        "en/trabajos-freelance/estado-candidaturas",
+        "en/trabajos-freelance/contratar-freelancer",
+        "en/comenzar-trabajo-freelance/introduccion",
+        "en/comenzar-trabajo-freelance/como-funcionan-disputas"
+      ]
+    },
+    {
+      "group": "Direct Hiring",
+      "pages": [
+        "en/contratacion-directa/explorar-freelancers"
+      ]
+    },
+    {
+      "group": "Services",
+      "pages": [
+        "en/servicios/crear-servicio"
+      ]
+    },
+    {
+      "group": "Crypto Academy",
+      "pages": [
+        "en/academia-crypto/fundamentos-cryptomonedas",
+        "en/academia-crypto/estados-contrato-inteligente"
+      ]
+    },
+    {
+      "group": "API",
+      "pages": [
+        "en/api/mcp-setup",
+        "en/api/api-docs",
+        "en/api/busqueda-ofertas"
+      ]
+    },
+    {
+      "group": "Extras",
+      "pages": [
+        "en/extra/roadmap",
+        "en/extra/tokenomics"
+      ]
+    },
+    {
+      "group": "Fees",
+      "pages": [
+        "en/trabajos-fees"
+      ]
+    },
+    {
+      "group": "Airdrop",
+      "pages": [
+        "en/airdrop"
+      ]
+    },
+    {
+      "group": "Announcements",
+      "pages": [
+        "en/anuncios"
       ]
     }
   ]
