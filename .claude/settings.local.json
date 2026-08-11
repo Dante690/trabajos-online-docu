@@ -13,7 +13,11 @@
       "Bash(git ls-tree:*)",
       "WebFetch(domain:trabajosonline.org)",
       "Bash(node *)",
-      "Bash(npx mintlify *)"
+      "Bash(npx mintlify *)",
+      "Read(//c/Users/jaime/.claude/image-cache/15023945-6793-4e3c-b5d4-4c9561f45c84/**)",
+      "Bash(cp 5.png /c/Git/trabajos-online-docu/logo/afiliados-landing.png)",
+      "Bash(cp 9.png /c/Git/trabajos-online-docu/logo/afiliados-partnerships.png)",
+      "Bash(cp 7.png /c/Git/trabajos-online-docu/logo/afiliados-signup.png)"
     ]
   }
 }
