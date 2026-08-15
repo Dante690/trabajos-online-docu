@@ -92,16 +92,28 @@ Las siguientes herramientas están disponibles a través del servidor MCP:
 | `getPairingCode` | Genera un código de vinculación para autenticación con agente |
 | `checkPairingStatus` | Verifica si un código de vinculación ha sido confirmado |
 | `searchJobs` | Busca y filtra ofertas de trabajo por palabra clave, categoría, presupuesto y más |
+| `searchFreelancers` | Busca **personas** por habilidad, ciudad, país y tarifa por hora |
+| `searchGigs` | Busca **servicios** con precio y plazo cerrados |
 | `getUserProfile` | Obtiene información de perfil por email, dirección de wallet o "current" |
 | `getJobApplications` | Obtiene las propuestas/aplicaciones para un trabajo específico |
 | `getContract` | Obtiene detalles de un contrato por ID |
 | `getConversation` | Obtiene todos los mensajes de una conversación |
 | `listCategories` | Lista todas las categorías de trabajo disponibles |
 
+<Note>
+  **¿Cuál de las dos búsquedas uso?**
+
+  - `searchFreelancers` → busca **personas**. Te dice a quién puedes contratar y
+    cuánto cobra por hora.
+  - `searchGigs` → busca **servicios ya preparados**, con precio cerrado y fecha
+    de entrega. Como comprar un producto.
+</Note>
+
 ### Herramientas Autenticadas (requieren API key)
 
 | Herramienta | Descripción |
 |---|---|
+| `getDashboard` | Resumen de la cuenta en una sola llamada: contratos activos, propuestas enviadas, ofertas publicadas y mensajes sin leer |
 | `postJob` | Crea una nueva oferta de trabajo |
 | `createGig` | Crea un nuevo servicio/gig |
 | `submitProposal` | Envía una propuesta para un trabajo |
@@ -109,9 +121,59 @@ Las siguientes herramientas están disponibles a través del servidor MCP:
 | `listActiveContracts` | Lista tus contratos activos |
 | `sendMessage` | Envía un mensaje en una conversación |
 | `listConversations` | Lista tus conversaciones |
-| `createDeposit` | Crea un depósito escrow de Stripe para un contrato |
-| `releasePayment` | Libera el pago a un freelancer |
+| `createDeposit` | **Prepara** un depósito escrow. No cobra nada: devuelve un enlace de confirmación |
+| `releasePayment` | **Prepara** la liberación del pago. No mueve fondos: devuelve un enlace de confirmación |
+| `checkPaymentConfirmation` | Consulta si una operación financiera preparada ya fue confirmada |
 | `getPaymentStatus` | Verifica el estado de pago de un contrato |
+
+## El agente nunca mueve tu dinero
+
+**El agente pide. Tú autorizas.** Igual que cuando pagas por internet y tu banco
+te manda confirmarlo en el móvil: la tienda pide el cobro, pero quien lo aprueba
+eres tú.
+
+Así funciona, paso a paso:
+
+<Steps>
+  <Step title="El agente lo prepara">
+    Le dices "paga los 900 € del contrato". El agente llama a `releasePayment`,
+    pero **no se cobra nada todavía**.
+  </Step>
+  <Step title="Te devuelve un enlace">
+    El agente te da una dirección tipo
+    `trabajosonline.org/confirm-payment/73885f28...`
+  </Step>
+  <Step title="Tú lo confirmas">
+    Abres el enlace, ves el contrato y el importe, y pulsas confirmar.
+    **Ahí es cuando se mueve el dinero.**
+  </Step>
+</Steps>
+
+Esto es lo que devuelve el agente en el primer paso:
+
+```json
+{
+  "status": "pending_confirmation",
+  "confirmationId": "73885f28ad02648cebf86ff40bfa1f66",
+  "confirmUrl": "https://trabajosonline.org/confirm-payment/73885f28...",
+  "details": { "contractId": "c-42", "amount": 900 },
+  "expiresInSeconds": 900
+}
+```
+
+Con `checkPaymentConfirmation` el agente puede ir mirando cómo va: te dirá si
+sigue pendiente, si ya se hizo, si falló o si caducó.
+
+<Warning>
+  **Para confirmar hay que iniciar sesión en la web.** No vale una API key, ni
+  siquiera la del propio agente. Si el agente pudiera confirmar lo que él mismo
+  pide, esto no serviría para nada.
+</Warning>
+
+Dos protecciones más:
+
+- **El enlace caduca a los 15 minutos.** Si lo dejas pasar, hay que pedirlo otra vez.
+- **Cada enlace sirve una sola vez.** Aunque el agente reintente, nunca se paga dos veces.
 
 ## Clientes Compatibles
 

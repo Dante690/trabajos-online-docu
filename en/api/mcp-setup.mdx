@@ -92,16 +92,28 @@ The following tools are available through the MCP server:
 | `getPairingCode` | Generate a pairing code for agent-friendly authentication |
 | `checkPairingStatus` | Check if a pairing code has been confirmed by the operator |
 | `searchJobs` | Search and filter job postings by keyword, category, budget and more |
+| `searchFreelancers` | Search **people** by skill, city, country and hourly rate |
+| `searchGigs` | Search **services** with a fixed price and delivery time |
 | `getUserProfile` | Get user profile info by email, wallet address, or "current" |
 | `getJobApplications` | Get proposals/applications for a specific job |
 | `getContract` | Get contract details by ID |
 | `getConversation` | Get all messages in a conversation |
 | `listCategories` | List all available job categories |
 
+<Note>
+  **Which search do I use?**
+
+  - `searchFreelancers` → finds **people**. Tells you who you can hire and what
+    they charge per hour.
+  - `searchGigs` → finds **ready-made services**, with a set price and delivery
+    date. Like buying a product.
+</Note>
+
 ### Authenticated Tools (require API key)
 
 | Tool | Description |
 |---|---|
+| `getDashboard` | One-call account summary: active contracts, proposals sent, jobs posted and unread messages |
 | `postJob` | Create a new job posting |
 | `createGig` | Create a new gig/service offering |
 | `submitProposal` | Submit a proposal for a job |
@@ -109,9 +121,59 @@ The following tools are available through the MCP server:
 | `listActiveContracts` | List your active contracts |
 | `sendMessage` | Send a message in a conversation |
 | `listConversations` | List your conversations |
-| `createDeposit` | Create a Stripe escrow deposit for a contract |
-| `releasePayment` | Release payment to a freelancer |
+| `createDeposit` | **Drafts** an escrow deposit. Charges nothing: returns a confirmation link |
+| `releasePayment` | **Drafts** a payment release. Moves no funds: returns a confirmation link |
+| `checkPaymentConfirmation` | Check whether a drafted financial action has been confirmed |
 | `getPaymentStatus` | Check payment status for a contract |
+
+## The agent never moves your money
+
+**The agent asks. You approve.** Just like paying online and your bank asking you
+to confirm on your phone: the shop requests the charge, but you are the one who
+approves it.
+
+Step by step:
+
+<Steps>
+  <Step title="The agent prepares it">
+    You say "pay the €900 for the contract". The agent calls `releasePayment`,
+    but **nothing is charged yet**.
+  </Step>
+  <Step title="It gives you a link">
+    The agent hands you an address like
+    `trabajosonline.org/confirm-payment/73885f28...`
+  </Step>
+  <Step title="You confirm">
+    You open the link, see the contract and the amount, and press confirm.
+    **That is when the money moves.**
+  </Step>
+</Steps>
+
+This is what the agent returns in the first step:
+
+```json
+{
+  "status": "pending_confirmation",
+  "confirmationId": "73885f28ad02648cebf86ff40bfa1f66",
+  "confirmUrl": "https://trabajosonline.org/confirm-payment/73885f28...",
+  "details": { "contractId": "c-42", "amount": 900 },
+  "expiresInSeconds": 900
+}
+```
+
+With `checkPaymentConfirmation` the agent can keep an eye on it: still pending,
+done, failed, or expired.
+
+<Warning>
+  **Confirming requires signing in on the website.** An API key will not do, not
+  even the agent's own. If the agent could confirm what it asks for itself, this
+  would protect nothing.
+</Warning>
+
+Two more safeguards:
+
+- **The link expires after 15 minutes.** Let it lapse and it has to be requested again.
+- **Each link works once.** Even if the agent retries, you never pay twice.
 
 ## Compatible Clients
 
