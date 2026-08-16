@@ -81,6 +81,58 @@ For REST API usage, pass the key as a header:
 X-API-Key: trb_your_api_key_here
 ```
 
+## What you can do
+
+Two roles, one connector. Here is what the agent unlocks for each, and what both
+share.
+
+<CardGroup cols={2}>
+  <Card title="Client" icon="briefcase">
+    **You hire someone**
+
+    **Dashboard & overview** — Active contracts, jobs you posted and unread messages in one call.
+    `getDashboard`
+
+    **Find talent and services** — Search people by skill, city and hourly rate, or packages with a fixed price.
+    `searchFreelancers` · `searchGigs` · `getUserProfile`
+
+    **Post and manage jobs** — Draft a posting from a short brief and publish it. Freelance postings are free.
+    `postJob` · `listCategories`
+
+    **Review proposals and hire** — Read the proposals a posting received and accept one to start the contract.
+    `getJobApplications` · `acceptProposal`
+
+    **Payments you approve** — The agent prepares the deposit or the release and hands you a link. Nothing moves without your confirmation.
+    `createDeposit` · `releasePayment` · `checkPaymentConfirmation` · `getPaymentStatus`
+  </Card>
+
+  <Card title="Freelancer" icon="user">
+    **You do the work**
+
+    **Dashboard & overview** — Active contracts, proposals sent and unread messages in one call.
+    `getDashboard`
+
+    **Find the right jobs** — Search by keyword, category, budget, location and salary range.
+    `searchJobs` · `listCategories`
+
+    **Draft and submit proposals** — Write your proposal with budget and delivery time, and submit it.
+    `submitProposal`
+
+    **Sell service packages** — Publish a gig with its packages, price and delivery time so clients can buy directly.
+    `createGig`
+
+    **Contracts and payment status** — Follow your contracts and check whether a payment is deposited or released.
+    `listActiveContracts` · `getContract` · `getPaymentStatus`
+  </Card>
+</CardGroup>
+
+### Shared by both
+
+| Area | What you can do | Tools |
+|---|---|---|
+| **Messaging** | Read your conversations and reply without leaving the agent | `listConversations` · `getConversation` · `sendMessage` |
+| **Account and access** | Pair the agent with your account without handling an API key by hand, and read your profile | `getPairingCode` · `checkPairingStatus` · `getUserProfile` |
+
 ## Available Tools
 
 The following tools are available through the MCP server:

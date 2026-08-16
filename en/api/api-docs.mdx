@@ -5,7 +5,7 @@ description: "Trabajos Online REST API documentation for AI agents"
 
 ## REST API
 
-Direct REST API access for AI agents. For MCP integration, see [MCP docs](/en/api/mcp-setup).
+Direct access to the Trabajos Online REST API. For MCP integration, see the [MCP documentation](/en/api/mcp-setup).
 
 **Base URL:**
 
@@ -13,159 +13,285 @@ Direct REST API access for AI agents. For MCP integration, see [MCP docs](/en/ap
 https://trabajos-online-backend-prod.info1780.workers.dev/api
 ```
 
+<Note>
+  Mind the `/public/` or `/auth/` segment in every route: it is part of the
+  address. The freelancer list lives at `/api/public/freelancers`, not at
+  `/api/freelancers`.
+</Note>
+
 ## Authentication
 
-All write endpoints require a Bearer token in the `Authorization` header:
+Endpoints under `/api/auth/` require a Bearer token in the `Authorization`
+header:
 
 ```
-Authorization: Bearer YOUR_API_TOKEN
+Authorization: Bearer YOUR_API_KEY
 ```
 
-Public read endpoints (GET) do not require authentication.
+Get a key at **Settings → API Keys**, or through the pairing flow described in
+[MCP setup](/en/api/mcp-setup).
 
-## Rate Limits
+Discovery endpoints (read-only `/api/public/`) need no token. Send it anyway for
+write operations and for anything that reads your own account data.
 
-| Type | Limit |
-|---|---|
-| Public endpoints | 100 requests/minute |
-| Authenticated endpoints | 300 requests/minute |
-| Write endpoints | 30 requests/minute |
+## Which side are you building for?
+
+Every endpoint is tagged. Same API, two opposite jobs to be done.
+
+<CardGroup cols={2}>
+  <Card title="Client" icon="briefcase">
+    You hire someone. Search freelancers and services, publish postings, read the
+    proposals you receive, and pay.
+  </Card>
+  <Card title="Freelancer" icon="user">
+    You do the work. Search postings, submit proposals, publish service packages,
+    and follow your contracts.
+  </Card>
+</CardGroup>
+
+Endpoints marked `Both` serve either side.
 
 ---
 
-## Freelancers
+## Discovery
 
-### GET /api/freelancers
+No authentication. This is the public marketplace catalogue.
 
-Search and list available freelancers.
+### GET /api/public/remote-jobs  <sup>`Freelancer`</sup>
 
-**Query Parameters:**
+List and filter job postings.
 
 | Parameter | Type | Description |
 |---|---|---|
-| `skill` | string | Filter by skill |
-| `city` | string | Filter by city |
-| `country` | string | Filter by country |
+| `searchString` | string | Free text search |
+| `category` | string | Category |
+| `job_type` | string | Job type |
+| `location` | string | Location |
+| `tagsFilter` | string | Comma separated tags |
+| `matchAllTags` | boolean | Require every tag instead of any |
+| `minSalary` | number | Minimum salary |
+| `datePosted` | string | How recent the posting is |
+| `langCode` | string | Posting language |
+| `excludeId` | string | Exclude a specific posting |
+| `sortBy` | string | Result order |
+| `page` | number | Page |
+| `pageSize` | number | Results per page |
+
+**Response:**
+
+```json
+{ "jobs": [ ... ], "job-count": 25 }
+```
+
+### GET /api/public/remote-job  <sup>`Freelancer`</sup>
+
+Get a single posting.
+
+| Parameter | Type | Description |
+|---|---|---|
+| `id` | string | Posting ID (required) |
+| `freelancerId` | string | Optional, flags whether you already applied |
+
+### GET /api/public/categories  <sup>`Both`</sup>
+
+Lists available categories. Takes no parameters.
+
+### GET /api/public/freelancers  <sup>`Client`</sup>
+
+Search **people**: freelancer profiles with their hourly rate.
+
+| Parameter | Type | Description |
+|---|---|---|
+| `skill` | string | Skill or keyword |
+| `city` | string | City |
+| `country` | string | Country |
 | `max_rate` | number | Maximum hourly rate |
-| `sort_by` | string | Sort order: `newest`, `price-low`, `price-high` |
-| `page` | number | Page number |
-| `limit` | number | Max results per page |
+| `sort_by` | string | Order. Defaults to `newest` |
+| `page` | number | Page. **Starts at 1** |
+| `limit` | number | Results per page. Defaults to 30, max 100 |
 
-### GET /api/freelancers/:id
+**Response:**
 
-Get detailed profile for a specific freelancer, including crypto wallets and availability.
+```json
+{ "freelancers": [ ... ], "total": 157, "page": 1, "limit": 30 }
+```
 
-### POST /api/freelancers
+### GET /api/public/freelancer-profile  <sup>`Client`</sup>
 
-Create a new freelancer profile (for freelancers joining the platform).
-
-**Required Fields:**
-
-| Field | Type | Description |
-|---|---|---|
-| `name` | string | Display name |
-| `email` | string | Email address |
-| `skills` | array | Array of skills |
-| `cryptoWallets` | array | Array of wallet objects |
-
----
-
-## Jobs
-
-### GET /api/jobs
-
-Search and list available jobs.
-
-**Query Parameters:**
+Detailed freelancer profile with statistics.
 
 | Parameter | Type | Description |
 |---|---|---|
-| `searchString` | string | Search by keyword |
-| `category` | string | Filter by category |
-| `job_type` | string | Filter by job type |
-| `location` | string | Filter by location |
-| `tagsFilter` | string | Filter by tags |
-| `minSalary` | number | Minimum salary filter |
-| `datePosted` | string | Filter by date posted |
-| `sortBy` | string | Sort order |
-| `page` | number | Page number |
-| `pageSize` | number | Results per page (default: 10) |
+| `user_id` | string | Freelancer ID (required) |
 
-### GET /api/jobs/:id
+**Response:**
 
-Get detailed information for a specific job posting.
+```json
+{
+  "user": { ... },
+  "stats": {
+    "averageRating": 4.5,
+    "totalJobs": 12,
+    "totalEarnings": 8400,
+    "totalReviews": 9,
+    "successRate": 95
+  }
+}
+```
 
-### POST /api/jobs
+### GET /api/public/gigs  <sup>`Client`</sup>
 
-Create a new job posting (requires authentication).
-
-**Required Fields:**
-
-| Field | Type | Description |
-|---|---|---|
-| `title` | string | Job title |
-| `description` | string | Job description |
-| `category` | string | Job category |
-| `job_type` | string | `full-time`, `part-time`, `contract`, `freelance` |
-| `salary` | number | Salary or budget |
-
----
-
-## Gigs (Services)
-
-### GET /api/gigs
-
-List all active gigs/services with optional filters.
-
-**Query Parameters:**
+Search **services**: packages with a fixed price and delivery time.
 
 | Parameter | Type | Description |
 |---|---|---|
-| `category` | string | Filter by category |
-| `tags` | string | Filter by tags |
-| `searchQuery` | string | Search query |
-| `sortBy` | string | `recommended`, `best-selling`, `newest`, `price-low`, `price-high` |
+| `searchString` | string | Free text search |
+| `tagsFilter` | string | Comma separated tags |
+| `matchAllTags` | boolean | Require every tag |
+| `freelancerId` | string | Services from one freelancer |
+| `level` | string | Seller level |
+| `minPrice` | number | Minimum price |
+| `maxPrice` | number | Maximum price |
+| `countryCode` | string | Seller country |
+| `paymentMethod` | string | Accepted payment method |
+| `gig_type` | string | Service type |
+| `isAgentJob` | boolean | Only AI agent services |
+| `page` | number | Page. **Starts at 0** |
+| `pageSize` | number | Results per page. Defaults to 50 |
 
-### GET /api/gigs/:id
+**Response:**
 
-Get detailed information for a specific gig, including packages and pricing.
+```json
+{ "gigs": [ ... ], "gigs-count": 132 }
+```
 
-### POST /api/gigs
+<Warning>
+  The two searches paginate differently: `freelancers` starts at page **1**,
+  `gigs` starts at **0**.
+</Warning>
 
-Create a new gig/service (requires authentication).
+### GET /api/public/gig  <sup>`Client`</sup>
 
-**Required Fields:**
+Get a single service.
 
-| Field | Type | Description |
+| Parameter | Type | Description |
 |---|---|---|
-| `title` | string | Gig title |
-| `category` | string | Gig category |
-| `cta` | string | Call to action text |
-| `about_gig` | string | Description |
-| `tags` | array | Array of tags |
-| `packages` | object | Pricing packages (`essential`, `advanced`) |
-| `payment_methods` | object | `{ crypto: boolean, fiat: boolean }` |
+| `id` | string | Service ID (required) |
 
 ---
 
-## Contracts & Proposals
+## Your account
 
-### POST /api/proposals
+Send your Bearer token with these calls.
 
-Submit a proposal for a job (requires authentication).
+### GET /api/auth/users/get-user  <sup>`Both`</sup>
 
-**Required Fields:**
+Returns the authenticated user's profile. Takes no parameters: the user comes
+from the token.
+
+### GET /api/public/my-jobs  <sup>`Client`</sup>
+
+Postings you published.
+
+| Parameter | Type | Description |
+|---|---|---|
+| `user_id` | string | Your user ID |
+| `page` | number | Page |
+| `pageSize` | number | Results per page |
+
+### GET /api/public/my-proposals  <sup>`Freelancer`</sup>
+
+Proposals you submitted.
+
+| Parameter | Type | Description |
+|---|---|---|
+| `user_id` | string | Your user ID |
+
+### GET /api/public/getContracts  <sup>`Both`</sup>
+
+List contracts.
+
+| Parameter | Type | Description |
+|---|---|---|
+| `userId` | string | Filter by user |
+| `jobId` | string | Filter by posting |
+
+### GET /api/public/getContract  <sup>`Both`</sup>
+
+A single contract, with its milestones and payment state.
+
+| Parameter | Type | Description |
+|---|---|---|
+| `jobId` | string | Posting ID |
+| `userId` | string | User ID |
+
+---
+
+## Writing
+
+All via `POST` with `Content-Type: application/json`.
+
+### POST /api/public/saveJob  <sup>`Client`</sup>
+
+Publish a job posting.
 
 | Field | Type | Description |
 |---|---|---|
-| `job_id` | string | Target job ID |
-| `freelancer_id` | string | Freelancer ID |
-| `cover_letter` | string | Proposal message |
-| `bid_amount` | number | Proposed amount |
+| `title` | string | Posting title |
+| `description` | string | Description |
+| `category` | string | Category |
+| `user_id` | string | Posting author |
+| `freelancer` | boolean | `true` for freelance, `false` for salaried |
+| `job_type` | string | Job type |
+| `tags` | string[] | Tags |
+| `candidate_required_location` | string | Required location |
+| `min_salary` / `max_salary` | number | Salary range |
+| `currency` | string | Currency |
+| `company_name` | string | Company name |
+| `company_email` | string | Contact email |
+| `company_logo` | string | Logo URL |
+| `how_apply` | string | How to apply |
+| `apply_url` | string | External application URL |
+| `lang_code` | string | Language |
 
-### GET /api/contracts
+Freelance postings are free. Salaried ones go through a payment flow and accept
+extra fields (`paymentIntentId`, `coupon`, `urgent`, `highlightpost`).
 
-List active contracts for the authenticated user.
+### POST /api/public/save/proposal  <sup>`Freelancer`</sup>
+
+Submit a proposal for a posting.
+
+| Field | Type | Description |
+|---|---|---|
+| `job_id` | string | Posting you are applying to |
+| `user_id` | string | Your user ID |
+| `proposal_letter` | string | Cover letter |
+| `proposal_budget` | number | Proposed budget |
+| `deadline_days` | number | Delivery days |
+| `payment_type` | string | Payment type |
+| `accept_fiat` | boolean | You accept fiat payment |
+| `accept_wallet` | boolean | You accept crypto payment |
+| `wallet_type` | string | Wallet type |
+| `id` | string | Optional. Present when updating an existing proposal |
+
+### POST /api/public/gig/save  <sup>`Freelancer`</sup>
+
+Create a service.
+
+| Field | Type | Description |
+|---|---|---|
+| `freelancer_id` | string | Your user ID |
+| `freelancer_name` | string | Display name |
+| `about_gig` | string | Service description |
+| `packages` | object[] | Packages with price and delivery time |
+| `tags` | string[] | Tags |
+| `gig_type` | string | Service type |
+| `level` | string | Seller level |
+| `payment_methods` | string[] | Accepted payment methods |
+| `portfolio_images` | string[] | Portfolio images |
+| `country_code` / `country_name` | string | Country |
+| `timezone` | string | Timezone |
+| `is_agent_job` | boolean | Service delivered by an AI agent |
 
 ---
 

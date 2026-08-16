@@ -81,6 +81,58 @@ Para uso de la API REST, pasa la clave como header:
 X-API-Key: trb_your_api_key_here
 ```
 
+## Qué puedes hacer
+
+Dos roles, un solo conector. Esto es lo que desbloquea el agente para cada uno,
+y lo que comparten.
+
+<CardGroup cols={2}>
+  <Card title="Cliente" icon="briefcase">
+    **Contratas a alguien**
+
+    **Resumen de tu cuenta** — Contratos activos, ofertas publicadas y mensajes sin leer en una sola llamada.
+    `getDashboard`
+
+    **Encontrar talento y servicios** — Busca personas por habilidad, ciudad y tarifa, o paquetes con precio cerrado.
+    `searchFreelancers` · `searchGigs` · `getUserProfile`
+
+    **Publicar y gestionar ofertas** — Redacta una oferta desde un briefing corto y publícala. Las freelance son gratis.
+    `postJob` · `listCategories`
+
+    **Revisar propuestas y contratar** — Lee las propuestas recibidas y acepta una para iniciar el contrato.
+    `getJobApplications` · `acceptProposal`
+
+    **Pagos que tú autorizas** — El agente prepara el depósito o la liberación y te da un enlace. Nada se mueve sin tu confirmación.
+    `createDeposit` · `releasePayment` · `checkPaymentConfirmation` · `getPaymentStatus`
+  </Card>
+
+  <Card title="Freelancer" icon="user">
+    **Haces el trabajo**
+
+    **Resumen de tu cuenta** — Contratos activos, propuestas enviadas y mensajes sin leer en una sola llamada.
+    `getDashboard`
+
+    **Encontrar ofertas** — Busca por palabra clave, categoría, presupuesto, ubicación y rango salarial.
+    `searchJobs` · `listCategories`
+
+    **Redactar y enviar propuestas** — Escribe la propuesta con tu presupuesto y plazo, y envíala.
+    `submitProposal`
+
+    **Vender servicios** — Publica un servicio con sus paquetes, precio y plazo para que te lo compren directamente.
+    `createGig`
+
+    **Contratos y estado de cobro** — Sigue tus contratos y comprueba si un pago está depositado o liberado.
+    `listActiveContracts` · `getContract` · `getPaymentStatus`
+  </Card>
+</CardGroup>
+
+### Común a los dos
+
+| Área | Qué puedes hacer | Herramientas |
+|---|---|---|
+| **Mensajería** | Leer tus conversaciones y responder sin salir del agente | `listConversations` · `getConversation` · `sendMessage` |
+| **Cuenta y acceso** | Vincular el agente a tu cuenta sin manejar una API key a mano, y leer tu perfil | `getPairingCode` · `checkPairingStatus` · `getUserProfile` |
+
 ## Herramientas Disponibles
 
 Las siguientes herramientas están disponibles a través del servidor MCP:
